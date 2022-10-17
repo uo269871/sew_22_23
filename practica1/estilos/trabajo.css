@@ -1,0 +1,13 @@
+/*Especificidad: 001*/
+main {
+    background-color: bisque;
+}
+/*Especificidad: 001*/
+nav {
+    background-color: coral;
+}
+
+/*Especificidad: 001*/
+footer {
+    background-color: lightgray;
+}
