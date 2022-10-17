@@ -1,0 +1,36 @@
+/*Especificidad: 001*/
+body {
+    display: grid;
+    grid-template-areas:
+      "header header header"
+      "main main main"
+      "main main main"
+      "footer footer footer";
+}
+/*Especificidad: 001*/
+main {
+    grid-area: main;
+    display: grid;
+    grid-template-areas:
+      "nav nav nav"
+      "section section section";
+}
+/*Especificidad: 001*/
+header {
+    grid-area: header;
+}
+/*Especificidad: 001*/
+nav {
+    grid-area: nav;
+    top: 0;
+    height: fit-content;
+    padding-right: 1em;
+}
+/*Especificidad: 001*/
+section {
+    grid-area: section;
+}
+/*Especificidad: 001*/
+footer {
+    grid-area: footer;
+}
