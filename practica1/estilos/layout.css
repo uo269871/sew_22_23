@@ -1,36 +1,34 @@
 /*Especificidad: 001*/
-/*body {
+body {
     display: grid;
     grid-template-areas:
       "header header header"
       "main main main"
-      "main main main"
       "footer footer footer";
 }
 /*Especificidad: 001*/
-/*main {
+main {
     grid-area: main;
     display: grid;
     grid-template-areas:
-      "nav nav nav"
-      "section section section";
+      "nav section section";
 }
 /*Especificidad: 001*/
-/*header {
+header {
     grid-area: header;
 }
 /*Especificidad: 001*/
-/*nav {
+nav {
     grid-area: nav;
     top: 0;
-    height: fit-content;
+    width: fit-content;
     padding-right: 1em;
 }
 /*Especificidad: 001*/
-/*section {
+section {
     grid-area: section;
 }
 /*Especificidad: 001*/
-/*footer {
+footer {
     grid-area: footer;
 }

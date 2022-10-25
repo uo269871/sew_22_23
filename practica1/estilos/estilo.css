@@ -1,17 +1,29 @@
 /*Especificidad: 001*/
-/*body {
+body {
   font-family: Tahoma, sans-serif;
-  color: #818181;
-  background-color: #fff;
-  }
+  color: #000000;
+  background-color: rgb(189, 247, 255);
+}
   
 /*Especificidad: 001*/
-/*h1 {
+h1 {
   color: #fff;    
-  background-color:#FF5733; 
+  background-color:#008cc4; 
   text-transform: uppercase;
   padding: 2em; 
   text-align: center;     
-  }
+}
+
+/*Especificidad: 001*/
+video {
+  width:100%;
+  height: auto;
+}
+
+/*Especificidad: 002*/
+picture img{
+  max-width: 90%;
+  min-width: 40%;
+}
 
 

@@ -11,7 +11,6 @@
     <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
     <!-- añadir el elemento link de enlace a la hoja de estilo dentro del <head> del documento html -->
     <link rel="stylesheet" type="text/css" href="estilos/estilo.css" />
-    <link rel="stylesheet" type="text/css" href="estilos/trabajo.css" />
     <link rel="stylesheet" type="text/css" href="estilos/layout.css" />
 </head>
 
@@ -32,28 +31,29 @@
         <p>React Native es un framework desarrollado por Meta, siendo su motivación principal crear aplicaciones para <a href="https://www.android.com/intl/es_es/">Android</a> e iOS, entre otras plataformas.</p>
         <p>Los principios de funcionamiento de React Native son prácticamente idénticos a los de React, excepto que React Native no manipula el DOM a través del Virtual DOM. Se ejecuta en un proceso en segundo plano (que interpreta el JavaScript escrito por los desarrolladores) directamente en el dispositivo final y se comunica con la plataforma nativa a través de datos serializados a través de un puente asíncrono y por lotes.</p>
         <table>
+            <caption>Aplicaciones que usan React Native</caption>
             <thead>
                 <tr>
-                    <th>Nombre</th>
-                    <th>Descripción</th>
+                    <th scope="col" id="nombre">Nombre</th>
+                    <th scope="col" id="descripción">Descripción</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td>Instagram</td>
-                    <td>Red social basada en fotos y vídeos</td>
+                    <td headers="nombre">Instagram</td>
+                    <td headers="descripción">Red social basada en fotos y vídeos</td>
                 </tr>
                 <tr>
-                    <td>Shopify</td>
-                    <td>Plataforma de comercio</td>
+                    <td headers="nombre">Shopify</td>
+                    <td headers="descripción">Plataforma de comercio</td>
                 </tr>
                 <tr>
-                    <td>Discord</td>
-                    <td>Aplicación de mensajería instantánea y VoIP</td>
+                    <td headers="nombre">Discord</td>
+                    <td headers="descripción">Aplicación de mensajería instantánea y VoIP</td>
                 </tr>
                 <tr>
-                    <td>Pinterest</td>
-                    <td>Plataforma de intercambio de imágenes</td>
+                    <td headers="nombre">Pinterest</td>
+                    <td headers="descripción">Plataforma de intercambio de imágenes</td>
                 </tr>
             </tbody>
         </table>
