@@ -25,9 +25,3 @@ picture img{
   max-width: 90%;
   min-width: 40%;
 }
-
-/*Especificidad: 001*/
-p {
-  color: #000000;
-  background-color: rgb(189, 247, 255);
-}
