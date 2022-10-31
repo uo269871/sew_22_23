@@ -1,20 +1,21 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<xs:schema xmlns="http://tempuri.org/arbol" elementFormDefault="qualified" targetNamespace="http://tempuri.org/arbol" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-	<xs:element name="arbol">
+<?xml version="1.0" encoding="Windows-1252"?>
+<xs:schema xmlns="http://tempuri.org/red_social" elementFormDefault="qualified" targetNamespace="http://tempuri.org/red_social" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="red_social">
 		<xs:complexType>
 			<xs:sequence>
-				<xs:element minOccurs="0" maxOccurs="unbounded" ref="persona" />
+				<xs:element minOccurs="0" maxOccurs="unbounded" ref="amigo" />
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
-	<xs:element name="persona">
+	<xs:element name="amigo">
 		<xs:complexType>
 			<xs:sequence>
 				<xs:element ref="nacimiento" />
-				<xs:element minOccurs="0" maxOccurs="1" ref="defuncion" />
+				<xs:element ref="residencia" />
 				<xs:sequence minOccurs="0" maxOccurs="1">
-					<xs:element ref="persona" />
-					<xs:element ref="persona" />
+					<xs:element ref="amigo" />
+					<xs:element ref="amigo" />
+					<xs:element ref="amigo" />
 				</xs:sequence>
 				<xs:element minOccurs="1" maxOccurs="unbounded" ref="fotografia" />
 				<xs:element minOccurs="0" maxOccurs="1" ref="video" />
@@ -33,13 +34,12 @@
 			<xs:attribute name="fecha" type="xs:string" use="required" />
 		</xs:complexType>
 	</xs:element>
-	<xs:element name="defuncion">
+	<xs:element name="residencia">
 		<xs:complexType>
 			<xs:sequence>
 				<xs:element ref="coordenadas" />
 			</xs:sequence>
 			<xs:attribute name="lugar" type="xs:string" use="required" />
-			<xs:attribute name="fecha" type="xs:string" use="required" />
 		</xs:complexType>
 	</xs:element>
 	<xs:element name="coordenadas">

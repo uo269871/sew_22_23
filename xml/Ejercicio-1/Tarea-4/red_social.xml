@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE red_social>
-<red_social>
+<red_social xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="red_social.xsd">
     <amigo nombre="Miguel" apellidos="Menendez Rodriguez" comentarios="Estudiante"> 
         <nacimiento lugar="Oviedo" fecha="2000-08-29">
             <coordenadas lat="43.354933" long="-5.8514295" alt="259.9078972"/>
