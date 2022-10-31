@@ -90,7 +90,7 @@
             </residencia>
             <fotografia url = "ana.jpg"/>
             <amigo nombre="Maria Jose" apellidos="Garcia Palomero" comentarios="Hija única">
-                <nacimiento lugar="Caboalles de Abajo">
+                <nacimiento lugar="Caboalles de Abajo" fecha="1920-02-14">
                     <coordenadas lat="42.9521477" long="-6.374352" alt="1.044.0396361"/>
                 </nacimiento>
                 <residencia lugar="Caboalles de Abajo">

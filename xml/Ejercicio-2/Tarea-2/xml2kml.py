@@ -2,12 +2,12 @@ import lxml.etree as et
 import codecs
 
 def parseXml():
-    tree = et.parse("arbol.xml")
+    tree = et.parse("red_social.xml")
     root = tree.getroot()
     kml = ''
     name = ''
     for hijo in root.iter():
-        if(hijo.tag == 'persona'):
+        if(hijo.tag == 'amigo'):
             att = hijo.attrib
             name = att['nombre'] + ' ' + att['apellidos']
         if(hijo.tag == 'nacimiento'):
@@ -17,7 +17,7 @@ def parseXml():
         if(hijo.tag == 'residencia'):
             kml += '<Placemark>\n'
             kml += '\t<name>Residencia de ' + name + '</name>\n'
-            kml += '\t<description>' + name + ' vive en ' + hijo.attrib['lugar'] + ' el ' + hijo.attrib['fecha'] + '</description>\n'
+            kml += '\t<description>' + name + ' vive en ' + hijo.attrib['lugar'] + '</description>\n'
         if(hijo.tag == 'coordenadas'):
             long =hijo.attrib['long']
             lat =hijo.attrib['lat']
@@ -36,14 +36,14 @@ def getText():
     kml = '<?xml version="1.0" encoding="UTF-8"?>\n'
     kml += '<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">\n'
     kml += '<Document>\n'
-    kml += '<name>Arbol</name>\n'
+    kml += '<name>Red social</name>\n'
     kml += parseXml()
     kml += '</Document>\n'
     kml += '</kml>'
     return kml
 
 def writeKml(html):
-    file =  codecs.open('arbol.kml', "w", "utf-8")
+    file =  codecs.open('red_social.kml', "w", "utf-8")
     file.write(html)
     file.close()
 

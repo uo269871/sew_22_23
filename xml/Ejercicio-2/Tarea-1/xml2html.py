@@ -30,7 +30,7 @@ def parseXml():
 
 def getText():
     html = '<!DOCTYPE HTML>\n<html lang="es">\n'
-    html += '<head>\n<meta charset="UTF-8">\n<title>Arbol genealógico</title>\n'
+    html += '<head>\n<meta charset="UTF-8">\n<title>Red social</title>\n'
     html += '<meta name="author" content="Miguel Menéndez Rodríguez"/>\n'
     html += '<link rel="stylesheet" type="text/css" href="estilo.css" />\n</head>\n'
     html += parseXml()
@@ -38,7 +38,7 @@ def getText():
     return html
 
 def writeHtml(html):
-    file =  codecs.open('arbol.html', "w", "utf-8")
+    file =  codecs.open('red_social.html', "w", "utf-8")
     file.write(html)
     file.close()
 

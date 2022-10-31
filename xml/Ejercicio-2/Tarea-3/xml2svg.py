@@ -7,7 +7,7 @@ listLineas = []
 def recursivo(nodo,borde,nivel,centro,lineas):
     padre = True
     for persona in nodo:
-        if(persona.tag == 'persona'):
+        if(persona.tag == 'amigo'):
             c = centro
             if(padre):
                 c -= borde
@@ -17,7 +17,7 @@ def recursivo(nodo,borde,nivel,centro,lineas):
             if(lineas != None):
                 listLineas.append((nivel,c,lineas[0],lineas[1]))
             listPersonas.append((c,nivel,persona))
-            recursivo(persona,borde/2,nivel-300,c,(c,nivel))
+            recursivo(persona,borde/2,nivel-500,c,(c,nivel))
 
 def dibujarSvg():
     svg = ''
@@ -134,21 +134,21 @@ def dibujarSvg():
 
 def parseXml():
     svg = ''
-    tree = et.parse('arbol.xml')
+    tree = et.parse('red_social.xml')
     root = tree.getroot()
-    recursivo(root.findall('persona'), 1200, 1100, 2500, None)
+    recursivo(root.findall('amigo'), 1200, 1100, 5000, None)
     svg += dibujarSvg()
     return svg
 
 def getText():
     svg = '<?xml version="1.0" encoding="UTF-8"?>\n'
-    svg += '<svg height="1300" width="2500" style="overflow:visible " version="1.1" xmlns="http://www.w3.org/2000/svg">\n'
+    svg += '<svg height="1300" width="5000" style="overflow:visible " version="1.1" xmlns="http://www.w3.org/2000/svg">\n'
     svg += parseXml()
     svg += '</svg>'
     return svg
 
 def writeSvg(svg):
-    file =  codecs.open('arbol.svg', 'w', 'utf-8')
+    file =  codecs.open('red_social.svg', 'w', 'utf-8')
     file.write(svg)
     file.close()
 
