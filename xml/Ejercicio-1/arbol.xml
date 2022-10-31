@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE arbol>
+<arbol>
+    <!--YO-->
+    <persona nombre="Miguel" apellidos="Menendez Rodriguez" comentarios="Estudiante"> 
+        <nacimiento lugar="Oviedo" fecha="2000-08-29">
+            <coordenadas lat="43.354933" long="-5.8514295" alt="259.9078972"/>
+        </nacimiento>
+        <fotografia url = "miguel.jpg"/>
+        <!--PADRE-->
+        <persona nombre="Luis" apellidos="Menendez Fernandez" comentarios="Padre"> 
+            <nacimiento lugar="Oviedo" fecha="1970-12-11">
+                <coordenadas lat="43.363433" long="-5.8633631" alt="257.1425868"/>
+            </nacimiento>
+            <fotografia url = "luis.jpg"/>
+            <!--ABUELO PATERNO-->
+            <persona nombre="Manuel" apellidos="Menendez Gutierrez" comentarios="Primer universitario">
+                <nacimiento lugar="Cangas de Onís" fecha="1941-07-29">
+                    <coordenadas lat="43.3507281" long="-5.1287966" alt="66.3388045"/>
+                </nacimiento>
+                <fotografia url = "manuel.jpg"/>
+                <!--BISABUELO-->
+                <persona nombre="Javier" apellidos="Menendez Jimenez" comentarios="Ganadero">
+                    <nacimiento lugar="Helgueras" fecha="1916-04-17">
+                        <coordenadas lat="43.3563116" long="-5.1206803" alt="199.8421655"/>
+                    </nacimiento>
+                    <defuncion lugar="Cangas de Onís" fecha="1989-02-28">
+                        <coordenadas lat="43.3507281" long="-5.1287966" alt="66.3388045"/>
+                    </defuncion>
+                    <fotografia url = "javier.jpg"/>
+                </persona>
+                <!--BISABUELA-->
+                <persona nombre="Lucia" apellidos="Gutierrez Guanes" comentarios="Ganadera">
+                    <nacimiento lugar="Celango" fecha="1919-12-28">
+                        <coordenadas lat="43.3567593" long="-5.112205" alt="299.7768765"/>
+                    </nacimiento>
+                    <defuncion lugar="Cangas de Onís" fecha="1992-11-20">
+                        <coordenadas lat="43.3507281" long="-5.1287966" alt="66.3388045"/>
+                    </defuncion>
+                    <fotografia url = "lucia.jpg"/>
+                </persona>
+            </persona>
+            <!--ABUELA PATERNA-->
+            <persona nombre="Maria Concepcion" apellidos="Fernanez Garcia" comentarios="Propietaria de una tienda">
+                <nacimiento lugar="San Juan de Parres" fecha="1943-05-13">
+                    <coordenadas lat="43.3546285" long="-5.1478346" alt="168.933651"/>
+                </nacimiento>
+                <fotografia url = "concha.jpg"/>
+                <!--BISABUELO-->
+                <persona nombre="Alejandro" apellidos="Fernandez Varela" comentarios="Agricultor">
+                    <nacimiento lugar="San Juan de Parres" fecha="1918-06-20">
+                        <coordenadas lat="43.3546285" long="-5.1478346" alt="168.933651"/>
+                    </nacimiento>
+                    <defuncion lugar="San Juan de Parres" fecha="1948-06-17">
+                        <coordenadas lat="43.3546285" long="-5.1478346" alt="168.933651"/>
+                    </defuncion>
+                    <fotografia url = "alex.jpg"/>
+                </persona>
+                <!--BISABUELA-->
+                <persona nombre="Laura" apellidos="Garcia Delgado" comentarios="Agricultora">
+                    <nacimiento lugar="San Juan de Parres" fecha="1918-01-14">
+                        <coordenadas lat="43.3539544" long="-5.1482913" alt="158.8678707"/>
+                    </nacimiento>
+                    <defuncion lugar="San Juan de Parres" fecha="1988-07-24">
+                        <coordenadas lat="43.3546285" long="-5.1478346" alt="168.933651"/>
+                    </defuncion>
+                    <fotografia url = "laura.jpg"/>
+                </persona> 
+            </persona>
+        </persona>
+        <!--MADRE-->
+        <persona nombre="Ana" apellidos="Rodriguez Garcia" comentarios="Madre">
+            <nacimiento lugar="Villablino" fecha="1972-11-21">
+                <coordenadas lat="42.9449357" long="-6.3295471" alt="1.037.5875016"/>
+            </nacimiento>
+            <fotografia url = "ana.jpg"/>
+            <!--ABUELO MATERNO-->
+            <persona nombre="Juan" apellidos="Rodriguez Valle" comentarios="Minero">
+                <nacimiento lugar="Villablino" fecha="1943-09-15">
+                    <coordenadas lat="42.9449357" long="-6.3295471" alt="1.037.5875016"/>
+                </nacimiento>
+                <fotografia url = "juan.jpg"/>
+                <!--BISABUELO-->
+                <persona nombre="Ivan" apellidos="Rodriguez Maeso" comentarios="Minero">
+                    <nacimiento lugar="Villablino" fecha="1919-08-06">
+                        <coordenadas lat="42.9449357" long="-6.3295471" alt="1.037.5875016"/>
+                    </nacimiento>
+                    <defuncion lugar="Villablino" fecha="2001-04-27">
+                        <coordenadas lat="42.9449357" long="-6.3295471" alt="1.037.5875016"/>
+                    </defuncion>
+                    <fotografia url = "ivan.jpg"/>
+                </persona>
+                <!--BISABUELA-->
+                <persona nombre="Munia" apellidos="Valle Dominguez" comentarios="Madre de tres hijos">
+                    <nacimiento lugar="Llamas de Laciana" fecha="1920-10-25">
+                        <coordenadas lat="42.9285463" long="-6.3223696" alt="994.4560698"/>
+                    </nacimiento>
+                    <fotografia url = "munia.jpg"/>
+                </persona>
+            </persona>
+            <!--ABUELA MATERNA-->
+            <persona nombre="Maria Jose" apellidos="Garcia Palomero" comentarios="Hija única">
+                <nacimiento lugar="Caboalles de Abajo" fecha="1950-07-30">
+                    <coordenadas lat="42.9521477" long="-6.374352" alt="1.044.0396361"/>
+                </nacimiento>
+                <fotografia url = "marijo.jpg"/>
+                <!--BISABUELO-->
+                <persona nombre="Jose Maria" apellidos="Garcia Marrero" comentarios="Minero">
+                    <nacimiento lugar="Caboalles de Abajo" fecha="1920-02-14">
+                        <coordenadas lat="42.9526827" long="-6.3755552" alt="1.054.7566915"/>
+                    </nacimiento>
+                    <defuncion lugar="Caboalles de Abajo" fecha="1979-10-02">
+                        <coordenadas lat="42.9526827" long="-6.3755552" alt="1.054.7566915"/>
+                    </defuncion>
+                    <fotografia url = "josemari.jpg"/>
+                </persona>
+                <!--BISABUELA-->
+                <persona nombre="Ana Maria" apellidos="Palomero Pescador" comentarios="Huérfana de padre">
+                    <nacimiento lugar="Caboalles de Abajo" fecha="1917-12-03">
+                        <coordenadas lat="42.9521477" long="-6.374352" alt="1.044.0396361"/>
+                    </nacimiento>
+                    <defuncion lugar="Caboalles de Abajo" fecha="1979-10-04">
+                        <coordenadas lat="42.9526827" long="-6.3755552" alt="1.054.7566915"/>
+                    </defuncion>
+                    <fotografia url = "anamari.jpg"/>
+                </persona> 
+            </persona>
+        </persona>
+    </persona>
+</arbol>

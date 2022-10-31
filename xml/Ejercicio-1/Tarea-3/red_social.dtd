@@ -1,0 +1,19 @@
+<!ELEMENT red_social (amigo*)>
+<!ELEMENT amigo (nacimiento,residencia,(amigo,amigo,amigo)?,fotografia+,(video+)?)>
+<!ELEMENT nacimiento (coordenadas)>
+<!ELEMENT residencia (coordenadas)>
+<!ELEMENT coordenadas (#PCDATA)>
+<!ELEMENT fotografia (#PCDATA)>
+<!ELEMENT video (#PCDATA)>
+<!ATTLIST amigo nombre CDATA #REQUIRED>
+<!ATTLIST amigo apellidos CDATA #REQUIRED>
+<!ATTLIST amigo comentarios CDATA #REQUIRED>
+<!ATTLIST nacimiento lugar CDATA #REQUIRED>
+<!ATTLIST nacimiento fecha CDATA #REQUIRED>
+<!ATTLIST residencia lugar CDATA #REQUIRED>
+<!ATTLIST residencia fecha CDATA #REQUIRED>
+<!ATTLIST coordenadas lat CDATA #REQUIRED>
+<!ATTLIST coordenadas long CDATA #REQUIRED>
+<!ATTLIST coordenadas alt CDATA #REQUIRED>
+<!ATTLIST fotografia url CDATA #REQUIRED>
+<!ATTLIST video url CDATA #REQUIRED>

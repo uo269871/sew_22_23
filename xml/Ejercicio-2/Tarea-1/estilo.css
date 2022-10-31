@@ -1,0 +1,40 @@
+/*Especificidad: 001*/
+body {
+  font-family: Tahoma, sans-serif;
+  color: #0a0a0a;
+  background-color: #fff;
+  }
+/*Especificidad: 001*/
+h1 {
+  color: #fff;    
+  background-color:#FF5733; 
+  text-transform: uppercase;
+  padding: 2em; 
+  text-align: center;     
+  }
+
+/* Especificidad: 001*/
+ul {
+  color:#aa1919;
+}
+/* Especificidad: 001*/
+nav{
+  color:darkblue;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: larger;
+}
+/* Especificidad: 002*/
+nav > a{
+  color:black;
+}
+/* Especificidad: 001*/
+img {
+  width: 100%; /*Problema que se muestre más grande que el tamaño real, se pixelará*/
+  height: auto;
+}
+/* Especificidad: 001*/
+video{
+  max-width: 100%;
+  height: auto;
+}
