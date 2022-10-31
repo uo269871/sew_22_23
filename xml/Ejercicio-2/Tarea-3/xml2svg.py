@@ -40,8 +40,6 @@ def dibujarSvg():
             + '" text-anchor="middle" font-size="16" style="fill:black">'
             + p[2].find('nacimiento').attrib.get('fecha')
         )
-        if p[2].find('defuncion') != None:
-            svg += ' ' + p[2].find('defuncion').attrib.get('fecha')
         svg += '</text>\n'
         i += 30
         svg += (
@@ -65,7 +63,7 @@ def dibujarSvg():
             + 'm'
             + '</text>\n'
         )
-        if p[2].find('defuncion') != None:
+        if p[2].find('residencia') != None:
             i += 30
             svg += (
                 '\t\t<text x="'
@@ -73,18 +71,18 @@ def dibujarSvg():
                 + '" y="'
                 + str(p[1] + i)
                 + '" text-anchor="middle" font-size="16" style="fill:black">'
-                + p[2].find('defuncion').attrib.get('lugar')
+                + p[2].find('residencia').attrib.get('lugar')
                 + '</text>\n'
                 + '\t\t<text x="'
                 + str(p[0])
                 + '" y="'
                 + str(p[1] + i + 15)
                 + '" text-anchor="middle" font-size="16" style="fill:black">'
-                + p[2].find('defuncion').find('coordenadas').attrib.get('long')
+                + p[2].find('residencia').find('coordenadas').attrib.get('long')
                 + ','
-                + p[2].find('defuncion').find('coordenadas').attrib.get('lat')
+                + p[2].find('residencia').find('coordenadas').attrib.get('lat')
                 + ' - '
-                + p[2].find('defuncion').find('coordenadas').attrib.get('alt')
+                + p[2].find('residencia').find('coordenadas').attrib.get('alt')
                 + 'm'
                 + '</text>\n'
             )

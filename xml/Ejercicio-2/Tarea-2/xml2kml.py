@@ -14,10 +14,10 @@ def parseXml():
             kml += '<Placemark>\n'
             kml += '\t<name>Nacimiento de ' + name + '</name>\n'
             kml += '\t<description>' + name + ' nació en ' + hijo.attrib['lugar'] + ' el ' + hijo.attrib['fecha'] + '</description>\n'
-        if(hijo.tag == 'defuncion'):
+        if(hijo.tag == 'residencia'):
             kml += '<Placemark>\n'
-            kml += '\t<name>Defunción de ' + name + '</name>\n'
-            kml += '\t<description>' + name + ' murió en ' + hijo.attrib['lugar'] + ' el ' + hijo.attrib['fecha'] + '</description>\n'
+            kml += '\t<name>Residencia de ' + name + '</name>\n'
+            kml += '\t<description>' + name + ' vive en ' + hijo.attrib['lugar'] + ' el ' + hijo.attrib['fecha'] + '</description>\n'
         if(hijo.tag == 'coordenadas'):
             long =hijo.attrib['long']
             lat =hijo.attrib['lat']

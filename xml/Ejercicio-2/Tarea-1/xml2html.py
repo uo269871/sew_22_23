@@ -2,24 +2,23 @@ import lxml.etree as et
 import codecs
 
 def parseXml():
-    tree = et.parse("arbol.xml")
+    tree = et.parse("red_social.xml")
     root = tree.getroot()
     html = ''
     for hijo in root.iter():
         if(hijo.tag == 'persona'):
             att = hijo.attrib
             html += '<h2>' + att['nombre'] + ' ' + att['apellidos'] + '</h2>\n'
-            html += '<p> <b> Comentario: ' + att['comentarios'] + '</b> </p>\n'
+            html += '<p>Comentario: ' + att['comentarios'] + '</p>\n'
         if(hijo.tag == 'nacimiento'):
             html += '<h3>Nacimiento</h3>\n'
-            html += '<p> <b> Lugar de nacimiento: ' + hijo.attrib['lugar'] + '</b> </p>\n'
-            html += '<p> <b> Fecha de nacimiento: ' + hijo.attrib['fecha'] + '</b> </p>\n'
+            html += '<p>Lugar de nacimiento: ' + hijo.attrib['lugar'] + '</p>\n'
+            html += '<p>Fecha de nacimiento: ' + hijo.attrib['fecha'] + '</p>\n'
         if(hijo.tag == 'residencia'):
             html += '<h3>Residencia</h3>\n'
-            html += '<p> <b> Lugar de residencia: ' + hijo.attrib['lugar'] + '</b> </p>\n'
-            html += '<p> <b> Fecha de residencia: ' + hijo.attrib['fecha'] + '</b> </p>\n'
+            html += '<p>Lugar de residencia: ' + hijo.attrib['lugar'] + '</p>\n'
         if(hijo.tag == 'coordenadas'):
-            html += '<p> <b> Coordenadas: ' + hijo.attrib['lat'] + ' - ' + hijo.attrib['long'] + ' - ' + hijo.attrib['alt'] +' </b> </p>\n'
+            html += '<p>Coordenadas: ' + hijo.attrib['lat'] + ' - ' + hijo.attrib['long'] + ' - ' + hijo.attrib['alt'] +' </p>\n'
         if(hijo.tag == 'fotografia'):
             url = hijo.attrib['url']
             html += '<img src="' + url +'" alt="">\n'
