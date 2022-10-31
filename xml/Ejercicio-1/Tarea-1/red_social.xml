@@ -21,7 +21,7 @@
                 <nacimiento lugar="Helgueras" fecha="1916-04-17">
                     <coordenadas lat="43.3563116" long="-5.1206803" alt="199.8421655"/>
                 </nacimiento>
-                <residencia lugar="Cangas de Onís" fecha="1989-02-28">
+                <residencia lugar="Cangas de Onís">
                     <coordenadas lat="43.3507281" long="-5.1287966" alt="66.3388045"/>
                 </residencia>
                 <fotografia url = "javier.jpg"/>
@@ -30,7 +30,7 @@
                 <nacimiento lugar="Celango" fecha="1919-12-28">
                     <coordenadas lat="43.3567593" long="-5.112205" alt="299.7768765"/>
                 </nacimiento>
-                <residencia lugar="Cangas de Onís" fecha="1992-11-20">
+                <residencia lugar="Cangas de Onís">
                     <coordenadas lat="43.3507281" long="-5.1287966" alt="66.3388045"/>
                 </residencia>
                 <fotografia url = "lucia.jpg"/>
@@ -39,7 +39,7 @@
                 <nacimiento lugar="San Juan de Parres" fecha="1918-06-20">
                     <coordenadas lat="43.3546285" long="-5.1478346" alt="168.933651"/>
                 </nacimiento>
-                <residencia lugar="San Juan de Parres" fecha="1948-06-17">
+                <residencia lugar="San Juan de Parres">
                     <coordenadas lat="43.3546285" long="-5.1478346" alt="168.933651"/>
                 </residencia>
                 <fotografia url = "alex.jpg"/>

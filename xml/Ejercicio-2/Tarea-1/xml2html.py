@@ -6,7 +6,7 @@ def parseXml():
     root = tree.getroot()
     html = ''
     for hijo in root.iter():
-        if(hijo.tag == 'persona'):
+        if(hijo.tag == 'amigo'):
             att = hijo.attrib
             html += '<h2>' + att['nombre'] + ' ' + att['apellidos'] + '</h2>\n'
             html += '<p>Comentario: ' + att['comentarios'] + '</p>\n'
