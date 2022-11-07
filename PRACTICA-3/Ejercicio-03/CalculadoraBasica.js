@@ -105,7 +105,13 @@ class CalculadoraBasica{
     borrar() {
         document.querySelector("body > form > input:nth-child(1)").value = "";
         this.operation = "";
+        this.solved = false;
         this.pointUsed = false;
+    }
+
+    borrarTodo(){
+        this.borrar();
+        this.memory = "";
     }
 
     mMenos() {
