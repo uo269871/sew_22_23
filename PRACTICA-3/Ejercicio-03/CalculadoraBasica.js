@@ -86,6 +86,22 @@ class CalculadoraBasica{
         document.querySelector("body > form > input:nth-child(1)").value = this.operation
     }
 
+    percentage(){
+        this.operation += "%";
+        this.solved = false;
+        this.pointUsed = false;
+        document.querySelector("body > form > input:nth-child(1)").value = this.operation;
+    }
+
+    sign(){
+        this.operation = document.querySelector("body > form > input:nth-child(1)").value+ "*-1"
+        this.operation = eval(this.operation);
+        this.solved = false;
+        if(!this.pointUsed)
+            this.pointUsed = false;
+        document.querySelector("body > form > input:nth-child(1)").value = this.operation
+    }
+
     borrar() {
         document.querySelector("body > form > input:nth-child(1)").value = "";
         this.operation = "";
