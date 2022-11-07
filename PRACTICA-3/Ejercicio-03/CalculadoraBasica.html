@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="author" content="Miguel Menéndez Rodríguez">
+    <title>Calculadora Basica</title>
+    <link rel="stylesheet" type="text/css" href="CalculadoraBasica.css">
+    <script src="CalculadoraBasica.js"></script>
+</head>
+
+<body>
+    <h1>Calculadora Básica</h1>
+    <p>Calculadora Básica</p>
+    <form action="" method="get">
+        <input type="text" readonly></input>
+        <!--Fila 1-->
+        <input type="submit" value="C" onclick="c.borrar()"/>
+        <input type="button" value="CE" onclick="c.mrc()"/>
+        <input type="button" value="+-" onclick="c.mrc()"/>
+        <input type="button" value="V" onclick="c.mrc()"/>
+        <input type="button" value="%" onclick="c.mrc()"/>
+
+        <!--Fila 2-->
+        <input type="button" value="7" onclick="c.digitos('7')"/>
+        <input type="button" value="8" onclick="c.digitos('8')"/>
+        <input type="button" value="9" onclick="c.digitos('9')"/>
+        <input type="button" value="*" onclick="c.mult()"/>
+        <input type="button" value="/" onclick="c.div()"/>
+        
+        <!--Fila 3-->
+        <input type="button" value="4" onclick="c.digitos('4')"/>
+        <input type="button" value="5" onclick="c.digitos('5')"/>
+        <input type="button" value="6" onclick="c.digitos('6')"/>
+        <input type="button" value="-" onclick="c.resta()"/>
+        <input type="button" value="mrc" onclick="c.mrc()"/>
+
+        <!--Fila 4-->
+        <input type="button" value="1" onclick="c.digitos('1')"/>
+        <input type="button" value="2" onclick="c.digitos('2')"/>
+        <input type="button" value="3" onclick="c.digitos('3')"/>
+        <input type="button" value="+" onclick="c.suma()"/>
+        <input type="button" value="m-" onclick="c.mMenos()"/>
+                
+        <!--Fila 5-->
+        <input type="button" value="0" onclick="c.digitos('0')"/>
+        <input type="button" value="." onclick="c.punto()"/>
+        
+        <input type="button" value="=" onclick="c.igual()"/>
+        <input type="button" value="m+" onclick="c.mMas()"/>
+    </form>
+</body>
+</html>
