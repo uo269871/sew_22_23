@@ -4,20 +4,24 @@ import codecs
 listPersonas = []
 listLineas = []
 
-def recursivo(nodo,borde,nivel,centro,lineas):
+def recursivo(nodo,borde,nivel,counter,centro,lineas):
     padre = True
+    friend = 0
     for persona in nodo:
         if(persona.tag == 'amigo'):
+            friend += 1
             c = centro
-            if(padre):
+            if(friend == 1):
                 c -= borde
                 padre = False
+            elif (friend == 2):
+                c = c  
             else:
                 c += borde
             if(lineas != None):
                 listLineas.append((nivel,c,lineas[0],lineas[1]))
             listPersonas.append((c,nivel,persona))
-            recursivo(persona,borde/2,nivel-500,c,(c,nivel))
+            recursivo(persona,borde/3,nivel-500,counter +1,c,(c,nivel))
 
 def dibujarSvg():
     svg = ''
@@ -136,7 +140,7 @@ def parseXml():
     svg = ''
     tree = et.parse('red_social.xml')
     root = tree.getroot()
-    recursivo(root.findall('amigo'), 1200, 1100, 5000, None)
+    recursivo(root.findall('amigo'), 2500, 1100,0, 5000, None)
     svg += dibujarSvg()
     return svg
 

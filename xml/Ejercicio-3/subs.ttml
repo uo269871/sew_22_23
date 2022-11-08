@@ -1,0 +1,697 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tt xmlns="http://www.w3.org/ns/ttml" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:timeBase="media" xmlns:tts="http://www.w3.org/ns/ttml#style" xml:lang="en" xmlns:ttm="http://www.w3.org/ns/ttml#metadata">
+  <head>
+    <metadata>
+      <ttm:title></ttm:title>
+    </metadata>
+    <styling>
+      <style id="s0" tts:backgroundColor="black" tts:fontStyle="normal" tts:fontSize="16" tts:fontFamily="sansSerif" tts:color="white" />
+    </styling>
+  </head>
+  <body style="s0">
+    <div>
+      <p begin="19.3s" id="p0" end="21.8s">My name is Max.</p>
+      <p begin="21.9s" id="p1" end="25.2s">My world is fire and blood.</p>
+      <p begin="25.3s" id="p2" end="26.8s">Why are you hurting these people?</p>
+      <p begin="26.9s" id="p3" end="29.3s">- It's the oil, stupid. - Oil wars.</p>
+      <p begin="29.4s" id="p4" end="31.4s">- We are killing for guzzoline. - Guzzoline.</p>
+      <p begin="31.5s" id="p5" end="33.3s">The world is actually running out of water.</p>
+      <p begin="33.4s" id="p6" end="36.6s">Now there's the water wars.</p>
+      <p begin="36.7s" id="p7" end="39.2s">Once, I was a cop,</p>
+      <p begin="39.3s" id="p8" end="42.2s">a road warrior searching for a righteous cause.</p>
+      <p begin="42.3s" id="p9" end="43.9s">...to the terminal freak-out point.</p>
+      <p begin="44.0s" id="p10" end="47.1s">Mankind has gone rogue, terrorizing itself.</p>
+      <p begin="47.2s" id="p11" end="48.7s">Thermonuclear skirmish.</p>
+      <p begin="48.8s" id="p12" end="51.6s">- The earth is sour. - Our bones are poisoned.</p>
+      <p begin="51.7s" id="p13" end="54.8s">We have become half-life.</p>
+      <p begin="54.9s" id="p14" end="60.3s">As the world fell, each of us, in our own way, was broken.</p>
+      <p begin="60.4s" id="p15" end="63.4s">It was hard to know who was more crazy...</p>
+      <p begin="65.5s" id="p16" end="69.3s">me or everyone else.</p>
+      <p begin="71.7s" id="p17" end="74.0s">Hello?</p>
+      <p begin="75.3s" id="p18" end="77.3s">Where are you?</p>
+      <p begin="84.1s" id="p19" end="85.2s">Where are you, Max?</p>
+      <p begin="85.3s" id="p20" end="87.6s">- Here they come again. - Max Rockatansky.</p>
+      <p begin="87.7s" id="p21" end="91.1s">Worming their way into the black matter of my brain.</p>
+      <p begin="91.2s" id="p22" end="94.0s">- Help us, Max. - You promised to help us.</p>
+      <p begin="97.5s" id="p23" end="101.7s">I tell myself... they cannot touch me.</p>
+      <p begin="103.5s" id="p24" end="105.9s">They are long dead.</p>
+      <p begin="137.0s" id="p25" end="139.3s">After him!</p>
+      <p begin="140.8s" id="p26" end="143.1s">After him!</p>
+      <p begin="147.3s" id="p27" end="149.1s">Now!</p>
+      <p begin="163.3s" id="p28" end="168.5s">I am the one who runs from both the living and the dead,</p>
+      <p begin="168.6s" id="p29" end="171.7s">hunted by scavengers,</p>
+      <p begin="171.8s" id="p30" end="174.6s">haunted by those I could not protect.</p>
+      <p begin="184.1s" id="p31" end="187.5s">So I exist in this wasteland.</p>
+      <p begin="191.5s" id="p32" end="196.2s">A man reduced to a single instinct...</p>
+      <p begin="196.3s" id="p33" end="198.5s">survive.</p>
+      <p begin="277.9s" id="p34" end="282.0s">Max? Is that you? Where were you?</p>
+      <p begin="284.3s" id="p35" end="287.8s">Help us. Where were you? Help us, Max. Where were you, Max?</p>
+      <p begin="304.1s" id="p36" end="306.9s">Stop running, Max. Stop running.</p>
+      <p begin="307.3s" id="p37" end="308.9s">You let us die.</p>
+      <p begin="310.0s" id="p38" end="311.4s">You let us die!</p>
+      <p begin="311.5s" id="p39" end="313.2s">You let us die!</p>
+      <p begin="313.3s" id="p40" end="315.1s">You promised to help us.</p>
+      <p begin="334.8s" id="p41" end="337.3s">Witness!</p>
+      <p begin="389.1s" id="p42" end="392.1s">- We are War Boys! - War Boys!</p>
+      <p begin="392.2s" id="p43" end="395.3s">- Kamakrazee War Boys! - War Boys!</p>
+      <p begin="395.4s" id="p44" end="399.1s">Fucacima Kamakrazee War Boys!</p>
+      <p begin="399.2s" id="p45" end="401.2s">Hooked on!</p>
+      <p begin="402.1s" id="p46" end="406.0s">- Today we're headin' to Gas Town! - Gas Town!</p>
+      <p begin="406.1s" id="p47" end="410.4s">- Today we're haulin' Aqua Cola. - Aqua cola!</p>
+      <p begin="410.7s" id="p48" end="413.9s">- Today we're haulin' produce! - Produce!</p>
+      <p begin="414.0s" id="p49" end="416.6s">And today we're haulin' mother's milk!</p>
+      <p begin="416.7s" id="p50" end="419.2s">Mother's milk!</p>
+      <p begin="467.2s" id="p51" end="471.4s">Rev it up for the Immortan Joe!</p>
+      <p begin="478.7s" id="p52" end="481.9s">Once again, we send off my war rig</p>
+      <p begin="482.0s" id="p53" end="485.3s">to bring back guzzoline from Gas Town</p>
+      <p begin="485.4s" id="p54" end="488.4s">and bullets from The Bullet Farm.</p>
+      <p begin="488.8s" id="p55" end="494.4s">Once again, I salute my imperator, Furiosa!</p>
+      <p begin="494.6s" id="p56" end="498.6s">And I salute my half-life War Boys</p>
+      <p begin="498.7s" id="p57" end="501.2s">who will ride with me eternal</p>
+      <p begin="501.3s" id="p58" end="505.3s">on the highways of Valhalla.</p>
+      <p begin="506.3s" id="p59" end="509.1s">I am your redeemer!</p>
+      <p begin="509.3s" id="p60" end="511.9s">It is by my hand</p>
+      <p begin="512.0s" id="p61" end="517.2s">you will rise from the ashes of this world!</p>
+      <p begin="524.7s" id="p62" end="527.0s">It's comin'. Get ready.</p>
+      <p begin="527.1s" id="p63" end="531.5s">Yes. Yes. Yes. It's comin'.</p>
+      <p begin="587.7s" id="p64" end="592.3s">Do not, my friends, become addicted to water.</p>
+      <p begin="592.4s" id="p65" end="598.1s">It will take hold of you. And you will resent its absence.</p>
+      <p begin="622.0s" id="p66" end="624.5s">Get 'em all off!</p>
+      <p begin="625.2s" id="p67" end="627.1s">Get 'em all off!</p>
+      <p begin="627.8s" id="p68" end="629.8s">Clear off!</p>
+      <p begin="638.3s" id="p69" end="641.3s">Signal Gas Town. Convoy's on its way.</p>
+      <p begin="667.9s" id="p70" end="670.8s">I got a War Boy runnin' on empty.</p>
+      <p begin="670.9s" id="p71" end="673.5s">Hook up that full-life.</p>
+      <p begin="676.9s" id="p72" end="679.6s">Careful. That's a universal donor.</p>
+      <p begin="736.5s" id="p73" end="739.1s">Boss, we're not going to Gas Town?</p>
+      <p begin="741.0s" id="p74" end="743.4s">Bullet Farm?</p>
+      <p begin="744.9s" id="p75" end="747.2s">We're heading east.</p>
+      <p begin="748.3s" id="p76" end="750.7s">I'll pass it down the line.</p>
+      <p begin="751.2s" id="p77" end="754.3s">New orders! Thunder up! Thunder up!</p>
+      <p begin="754.8s" id="p78" end="756.6s">This is not a supply run!</p>
+      <p begin="757.0s" id="p79" end="759.7s">- Go. Go. Go. - Ace, what's going on?</p>
+      <p begin="759.8s" id="p80" end="761.1s">- We're heading east. - Why?</p>
+      <p begin="761.2s" id="p81" end="763.8s">I don't know. That's the order.</p>
+      <p begin="781.3s" id="p82" end="782.2s">Moo.</p>
+      <p begin="782.3s" id="p83" end="785.8s">Hey, pa. You know about this?</p>
+      <p begin="785.9s" id="p84" end="789.1s">Your produce ain't going to Gas Town.</p>
+      <p begin="798.3s" id="p85" end="802.7s">She's gone off-road... into hostile territory.</p>
+      <p begin="804.6s" id="p86" end="807.0s">Why would she do that, Dad?</p>
+      <p begin="808.1s" id="p87" end="810.4s">- Let me see. Let me see. I wanna see! - Rictus.</p>
+      <p begin="810.5s" id="p88" end="814.6s">Rictus, go see what's agitating Dad!</p>
+      <p begin="841.8s" id="p89" end="844.3s">Splendid!</p>
+      <p begin="844.4s" id="p90" end="846.1s">Angharad!</p>
+      <p begin="855.7s" id="p91" end="856.9s">Where are they?</p>
+      <p begin="857.0s" id="p92" end="858.9s">They are not your property.</p>
+      <p begin="859.0s" id="p93" end="862.7s">- Miss Giddy? - You cannot own a human being.</p>
+      <p begin="862.8s" id="p94" end="865.1s">Sooner or later someone pushes back!</p>
+      <p begin="865.3s" id="p95" end="867.6s">Where is she taking them?!</p>
+      <p begin="867.7s" id="p96" end="870.5s">She didn't take them. They begged her to go.</p>
+      <p begin="872.0s" id="p97" end="875.6s">- Where is she taking them? - A long way from you.</p>
+      <p begin="901.7s" id="p98" end="903.9s">Hey, what's happening?</p>
+      <p begin="905.3s" id="p99" end="908.7s">Slit. What's going on? Slit!</p>
+      <p begin="908.8s" id="p100" end="911.6s">Treason, betrayal, an imperator gone rogue.</p>
+      <p begin="911.7s" id="p101" end="913.2s">An imperator. Who?</p>
+      <p begin="913.3s" id="p102" end="916.4s">Furiosa. She took a lot of stuff from Immortan Joe.</p>
+      <p begin="916.5s" id="p103" end="919.8s">- What stuff? - Breeders. His prize breeders.</p>
+      <p begin="919.9s" id="p104" end="922.5s">He wants them back. Not a hand laid on 'em.</p>
+      <p begin="929.5s" id="p105" end="932.7s">By my deeds, I honor him. V-8.</p>
+      <p begin="944.8s" id="p106" end="946.7s">- That's my wheel. - I'm driving.</p>
+      <p begin="946.8s" id="p107" end="949.5s">- You're my lancer. - I just promoted myself.</p>
+      <p begin="949.6s" id="p108" end="952.3s">- Not today. Today is my day. - Look at you!</p>
+      <p begin="952.4s" id="p109" end="954.4s">If you can't stand up, you can't do war!</p>
+      <p begin="954.5s" id="p110" end="958.0s">- He's right, son. - I'm not staying here dying soft.</p>
+      <p begin="958.1s" id="p111" end="960.3s">You're already a corpse.</p>
+      <p begin="960.4s" id="p112" end="963.1s">- I just need a top-up, some more juice. - There's no time!</p>
+      <p begin="963.2s" id="p113" end="966.7s">We take my blood bag. We take my blood bag and strap him to the lancer's perch.</p>
+      <p begin="966.8s" id="p114" end="968.8s">It's got a muzzle on it. It's a raging feral.</p>
+      <p begin="968.9s" id="p115" end="971.7s">That's right. High-octane crazy blood fillin' me up.</p>
+      <p begin="976.9s" id="p116" end="978.9s">If I'm gonna die...</p>
+      <p begin="979.3s" id="p117" end="981.1s">I'm gonna die historic on the fury road.</p>
+      <p begin="987.7s" id="p118" end="991.8s">- Yeah. Yeah. Organic. - Yeah?</p>
+      <p begin="991.9s" id="p119" end="994.4s">- Hitch up his blood bag. - Right-o.</p>
+      <p begin="1002.3s" id="p120" end="1003.3s">Yeah!</p>
+      <p begin="1004.6s" id="p121" end="1009.1s">How much more can they take from me? They've got my blood. Now it's my car!</p>
+      <p begin="1046.9s" id="p122" end="1048.7s">Immortan!</p>
+      <p begin="1049.1s" id="p123" end="1051.6s">Immortan Joe!</p>
+      <p begin="1053.5s" id="p124" end="1054.9s">He looked at me!</p>
+      <p begin="1055.7s" id="p125" end="1058.5s">- He looked right at me! - He looked at your blood bag!</p>
+      <p begin="1058.6s" id="p126" end="1061.0s">He turned his head. He looked me straight in the eye.</p>
+      <p begin="1061.2s" id="p127" end="1063.4s">He was scanning the horizon.</p>
+      <p begin="1063.9s" id="p128" end="1066.8s">No. I am awaited.</p>
+      <p begin="1066.9s" id="p129" end="1069.0s">I am awaited in Valhalla!</p>
+      <p begin="1071.6s" id="p130" end="1073.5s">Confucamus!</p>
+      <p begin="1075.9s" id="p131" end="1078.4s">Immortan!</p>
+      <p begin="1078.5s" id="p132" end="1080.5s">Yeah!</p>
+      <p begin="1099.3s" id="p133" end="1102.2s">- Hey! Heads up! - Heads up!</p>
+      <p begin="1107.2s" id="p134" end="1109.2s">Boss!</p>
+      <p begin="1109.3s" id="p135" end="1112.1s">We got vehicles from The Citadel. They're firing flares.</p>
+      <p begin="1112.2s" id="p136" end="1115.4s">They want reinforcements from Gas Town and The Bullet Farm.</p>
+      <p begin="1115.5s" id="p137" end="1117.8s">What is this? Backup? Decoy?</p>
+      <p begin="1119.2s" id="p138" end="1120.7s">It's a detour.</p>
+      <p begin="1153.0s" id="p139" end="1155.2s">Eyes right.</p>
+      <p begin="1157.3s" id="p140" end="1160.7s">Buzzards! Buzzards right! Eyes on! Eyes on!</p>
+      <p begin="1160.8s" id="p141" end="1162.8s">Buzzards right! Eyes on!</p>
+      <p begin="1163.3s" id="p142" end="1164.3s">Yeah!</p>
+      <p begin="1165.7s" id="p143" end="1169.3s">Should we turn it 'round and run 'em into our backup?</p>
+      <p begin="1170.4s" id="p144" end="1172.8s">No. We're good.</p>
+      <p begin="1172.9s" id="p145" end="1174.8s">We fang it!</p>
+      <p begin="1177.6s" id="p146" end="1180.4s">Thunder up! Here we go!</p>
+      <p begin="1182.7s" id="p147" end="1184.4s">Prepare the gunners!</p>
+      <p begin="1213.5s" id="p148" end="1215.8s">Morsov!</p>
+      <p begin="1218.2s" id="p149" end="1220.4s">Come on, attack!</p>
+      <p begin="1232.0s" id="p150" end="1234.1s">War!</p>
+      <p begin="1241.5s" id="p151" end="1242.8s">Ready!</p>
+      <p begin="1286.9s" id="p152" end="1289.4s">She's ours, Slit! She's ours.</p>
+      <p begin="1289.5s" id="p153" end="1292.3s">First, we get the buzzards off her back!</p>
+      <p begin="1298.0s" id="p154" end="1300.3s">Form up!</p>
+      <p begin="1303.2s" id="p155" end="1305.4s">That's my head!</p>
+      <p begin="1339.5s" id="p156" end="1341.9s">Get up! You can do it!</p>
+      <p begin="1346.7s" id="p157" end="1347.8s">Morsov!</p>
+      <p begin="1349.3s" id="p158" end="1351.6s">- Morsov! - No!</p>
+      <p begin="1351.7s" id="p159" end="1355.8s">- Witness me! - Witness!</p>
+      <p begin="1365.9s" id="p160" end="1367.4s">Witness!</p>
+      <p begin="1369.0s" id="p161" end="1373.4s">Mediocre, Morsov! Mediocre!</p>
+      <p begin="1392.4s" id="p162" end="1394.1s">Ready!</p>
+      <p begin="1403.8s" id="p163" end="1405.0s">Get ready!</p>
+      <p begin="1407.0s" id="p164" end="1408.9s">Back me in!</p>
+      <p begin="1411.8s" id="p165" end="1413.2s">They're coming!</p>
+      <p begin="1431.0s" id="p166" end="1434.2s">- We can't breathe down there! - Stay out of sight!</p>
+      <p begin="1435.3s" id="p167" end="1436.4s">Now!</p>
+      <p begin="1448.3s" id="p168" end="1449.7s">Go back!</p>
+      <p begin="1452.0s" id="p169" end="1454.0s">Hydraulics! Hydraulics!</p>
+      <p begin="1475.9s" id="p170" end="1477.8s">Yeah.</p>
+      <p begin="1482.1s" id="p171" end="1484.9s">Now we bring home the Booty.</p>
+      <p begin="1510.7s" id="p172" end="1512.7s">She thinks she can lose us, Dad.</p>
+      <p begin="1513.0s" id="p173" end="1517.5s">She thinks we're stupid. She thinks she can lose us in there!</p>
+      <p begin="1536.3s" id="p174" end="1539.0s">Fang it! Fang it!</p>
+      <p begin="1545.4s" id="p175" end="1547.2s">Why can't you stop?</p>
+      <p begin="1547.7s" id="p176" end="1550.1s">Crew! Outta the way! Out of the way!</p>
+      <p begin="1550.2s" id="p177" end="1552.9s">What have you done? What have you done?!</p>
+      <p begin="1575.1s" id="p178" end="1578.2s">We need counterweight. Get the blood bag down the back.</p>
+      <p begin="1588.3s" id="p179" end="1591.5s">Hunt them down! Hunt them down!</p>
+      <p begin="1616.5s" id="p180" end="1618.8s">Hey, head... say bye-bye to the neck!</p>
+      <p begin="1618.9s" id="p181" end="1621.5s">- Decapito! - We're goin' in, Slit!</p>
+      <p begin="1683.7s" id="p182" end="1686.3s">Come on! We've almost got her!</p>
+      <p begin="1694.9s" id="p183" end="1697.5s">Come on! Hold it steady!</p>
+      <p begin="1724.8s" id="p184" end="1727.3s">Oh, what a day! What a lovely day!</p>
+      <p begin="1747.1s" id="p185" end="1750.1s">I am the man... who grabs the sun...</p>
+      <p begin="1752.9s" id="p186" end="1756.3s">riding to Valhalla!</p>
+      <p begin="1757.6s" id="p187" end="1759.9s">Witness me, blood bag!</p>
+      <p begin="1763.4s" id="p188" end="1765.7s">Witness!</p>
+      <p begin="1788.8s" id="p189" end="1791.0s">I live, I die, I live again!</p>
+      <p begin="2014.0s" id="p190" end="2016.6s">We're not going back.</p>
+      <p begin="2044.6s" id="p191" end="2046.5s">Water.</p>
+      <p begin="2101.4s" id="p192" end="2103.4s">You.</p>
+      <p begin="2117.2s" id="p193" end="2122.4s">Angharad, is that just the wind, or is it a furious vexation?</p>
+      <p begin="2211.9s" id="p194" end="2213.3s">I got it!</p>
+      <p begin="2254.5s" id="p195" end="2257.5s">Glory me, blood bag! We snagged her alive.</p>
+      <p begin="2257.6s" id="p196" end="2260.3s">He's gonna shred her. Shred her!</p>
+      <p begin="2260.4s" id="p197" end="2262.1s">Bolt cutters.</p>
+      <p begin="2262.2s" id="p198" end="2264.1s">Chain.</p>
+      <p begin="2265.0s" id="p199" end="2266.2s">Hey, hey!</p>
+      <p begin="2269.7s" id="p200" end="2271.4s">Oh, look at them.</p>
+      <p begin="2272.0s" id="p201" end="2275.9s">So shiny, so chrome. He's gonna be so grateful.</p>
+      <p begin="2277.0s" id="p202" end="2279.4s">We could ask for anything.</p>
+      <p begin="2279.5s" id="p203" end="2281.2s">I wanna drive the war rig.</p>
+      <p begin="2282.4s" id="p204" end="2284.5s">- What are you gonna ask for? - That's my jacket.</p>
+      <p begin="2285.3s" id="p205" end="2287.3s">Sure.</p>
+      <p begin="2287.4s" id="p206" end="2288.9s">I mean, you can ask for more than a jacket.</p>
+      <p begin="2289.0s" id="p207" end="2290.4s">We're going to the Green Place.</p>
+      <p begin="2290.5s" id="p208" end="2292.2s">Wait, it's you and me.</p>
+      <p begin="2305.9s" id="p209" end="2308.9s">We're going to the Green Place of Many Mothers.</p>
+      <p begin="2327.0s" id="p210" end="2328.8s">How does it feel?</p>
+      <p begin="2328.9s" id="p211" end="2332.7s">- It hurts. - Out here, everything hurts.</p>
+      <p begin="2334.0s" id="p212" end="2335.5s">You wanna get through this?</p>
+      <p begin="2339.3s" id="p213" end="2341.6s">Do as I say.</p>
+      <p begin="2345.3s" id="p214" end="2348.0s">Now pick up what you can and run.</p>
+      <p begin="2390.1s" id="p215" end="2391.5s">Kill switches.</p>
+      <p begin="2393.0s" id="p216" end="2396.8s">I set the sequence myself. This rig goes nowhere without me.</p>
+      <p begin="2400.8s" id="p217" end="2402.4s">You can get in.</p>
+      <p begin="2403.4s" id="p218" end="2404.7s">Not without them.</p>
+      <p begin="2413.2s" id="p219" end="2415.7s">So we wait.</p>
+      <p begin="2423.4s" id="p220" end="2425.7s">You're relying on the gratitude of a very bad man.</p>
+      <p begin="2426.0s" id="p221" end="2428.9s">You've already damaged one of his wives. How grateful do you think he's gonna be?</p>
+      <p begin="2436.1s" id="p222" end="2439.2s">You're sitting on 2,000 horsepower of nitro-boosted war machine.</p>
+      <p begin="2440.2s" id="p223" end="2443.3s">I'd say you've got about a five-minute head start.</p>
+      <p begin="2450.9s" id="p224" end="2453.8s">You want that thing off your face?</p>
+      <p begin="2465.2s" id="p225" end="2466.2s">Let's go.</p>
+      <p begin="2510.7s" id="p226" end="2514.3s">Of all the legs you had to shoot, that one was attached to his favorite.</p>
+      <p begin="2535.0s" id="p227" end="2535.9s">Smeg!</p>
+      <p begin="2556.3s" id="p228" end="2558.1s">You don't have to do it just because he tells you.</p>
+      <p begin="2558.2s" id="p229" end="2560.9s">- What choice does she have? - He's not gonna hurt us. He needs us.</p>
+      <p begin="2561.0s" id="p230" end="2562.0s">- Why? - To bargain.</p>
+      <p begin="2562.1s" id="p231" end="2563.3s">Oh, he'll hurt us, all right.</p>
+      <p begin="2563.4s" id="p232" end="2565.0s">Do you think he's coming to the Green Place?</p>
+      <p begin="2565.1s" id="p233" end="2568.1s">Never! He's a crazy smeg who eats schlanger!</p>
+      <p begin="2595.2s" id="p234" end="2597.3s">- Stay out of there. - Behind you.</p>
+      <p begin="2602.1s" id="p235" end="2603.5s">The Gas Town boys.</p>
+      <p begin="2605.4s" id="p236" end="2607.5s">Don't damage the goods.</p>
+      <p begin="2613.8s" id="p237" end="2615.1s">What do you see?</p>
+      <p begin="2617.4s" id="p238" end="2619.5s">Big Rigs.</p>
+      <p begin="2620.6s" id="p239" end="2622.7s">Polecats.</p>
+      <p begin="2622.8s" id="p240" end="2624.8s">Flamers.</p>
+      <p begin="2625.7s" id="p241" end="2628.2s">And there's the People Eater himself.</p>
+      <p begin="2629.4s" id="p242" end="2631.4s">Coming to count the cost.</p>
+      <p begin="2647.5s" id="p243" end="2651.1s">We're dragging something out back. I think it's the fuel pod.</p>
+      <p begin="2652.1s" id="p244" end="2654.3s">No, no.</p>
+      <p begin="2654.7s" id="p245" end="2656.6s">I'll go.</p>
+      <p begin="2739.5s" id="p246" end="2742.1s">Filth! You traited him!</p>
+      <p begin="2745.8s" id="p247" end="2746.9s">No unnecessary killing!</p>
+      <p begin="2747.0s" id="p248" end="2749.7s">- This War Boy wants me dead! - We agreed!</p>
+      <p begin="2749.8s" id="p249" end="2751.5s">He's Kamakrazee!</p>
+      <p begin="2752.1s" id="p250" end="2754.0s">He's just a kid at the end of his half-life.</p>
+      <p begin="2754.3s" id="p251" end="2756.9s">No! I live, I die, I live again!</p>
+      <p begin="2757.0s" id="p252" end="2758.7s">- Hold him! - Tie him up!</p>
+      <p begin="2758.8s" id="p253" end="2760.3s">Throw him out!</p>
+      <p begin="2760.4s" id="p254" end="2762.2s">Chuck him out.</p>
+      <p begin="2762.3s" id="p255" end="2764.1s">You got more friends.</p>
+      <p begin="2766.5s" id="p256" end="2769.7s">Bullet Farmer. They're coming from The Bullet Farm.</p>
+      <p begin="2769.8s" id="p257" end="2771.3s">Yeah?</p>
+      <p begin="2771.4s" id="p258" end="2773.8s">It's over. You can't defy him.</p>
+      <p begin="2773.9s" id="p259" end="2775.9s">- Watch us, mate. - He is the one who grabbed the sun.</p>
+      <p begin="2776.0s" id="p260" end="2777.9s">Look at how slick he's fooled you, War Boy!</p>
+      <p begin="2778.0s" id="p261" end="2780.9s">- He's a lying old man. - By his hand, we'll be lifted up!</p>
+      <p begin="2781.0s" id="p262" end="2783.5s">That's why we have his logo seared on our backs!</p>
+      <p begin="2783.6s" id="p263" end="2785.4s">"Breeding stock!" "Battle fodder!"</p>
+      <p begin="2785.5s" id="p264" end="2788.6s">- No, I am awaited! - You're an old man's battle fodder!</p>
+      <p begin="2788.7s" id="p265" end="2791.2s">- Killing everyone and everything! - We're not to blame!</p>
+      <p begin="2791.3s" id="p266" end="2793.4s">Then who killed the world?</p>
+      <p begin="2821.1s" id="p267" end="2823.7s">I made a deal up ahead. Safe passage.</p>
+      <p begin="2823.8s" id="p268" end="2826.1s">I don't know if it's still any good.</p>
+      <p begin="2826.5s" id="p269" end="2830.1s">Get back in the hold! Keep the hatch open.</p>
+      <p begin="2836.5s" id="p270" end="2838.6s">I need you here.</p>
+      <p begin="2839.8s" id="p271" end="2841.2s">You may have to drive the rig.</p>
+      <p begin="2847.1s" id="p272" end="2848.8s">You.</p>
+      <p begin="2848.9s" id="p273" end="2850.8s">You stay.</p>
+      <p begin="2850.9s" id="p274" end="2853.0s">You stay there.</p>
+      <p begin="2856.0s" id="p275" end="2858.2s">Whatever you do, you can't be seen.</p>
+      <p begin="2858.5s" id="p276" end="2862.1s">I'm supposed to be alone. That was the deal.</p>
+      <p begin="2868.6s" id="p277" end="2870.6s">Down here.</p>
+      <p begin="2890.7s" id="p278" end="2892.7s">Hey.</p>
+      <p begin="2892.8s" id="p279" end="2894.9s">What's your name?</p>
+      <p begin="2895.9s" id="p280" end="2898.2s">What do I call you?</p>
+      <p begin="2898.3s" id="p281" end="2900.6s">Does it matter?</p>
+      <p begin="2901.8s" id="p282" end="2903.4s">Fine.</p>
+      <p begin="2903.5s" id="p283" end="2906.9s">When I yell "fool," you drive out of here as fast as you can.</p>
+      <p begin="2908.7s" id="p284" end="2911.7s">This is the sequence... one.</p>
+      <p begin="2911.8s" id="p285" end="2914.3s">One, two. One.</p>
+      <p begin="2914.4s" id="p286" end="2916.8s">Red, black, go.</p>
+      <p begin="2917.6s" id="p287" end="2919.8s">You have it?</p>
+      <p begin="3004.4s" id="p288" end="3006.1s">It's all here!</p>
+      <p begin="3007.1s" id="p289" end="3010.1s">Three thousand gallons of guzzoline, just like you asked!</p>
+      <p begin="3014.0s" id="p290" end="3015.7s">I'm gonna unhitch the pod.</p>
+      <p begin="3017.8s" id="p291" end="3020.5s">You drop the rocks.</p>
+      <p begin="3027.9s" id="p292" end="3032.8s">You said, "a few vehicles in pursuit. Maybe."</p>
+      <p begin="3032.9s" id="p293" end="3035.6s">We count three war parties!</p>
+      <p begin="3036.2s" id="p294" end="3039.7s">Yeah, well, I got unlucky. Let's do this!</p>
+      <p begin="3066.3s" id="p295" end="3067.5s">Fool!</p>
+      <p begin="3108.4s" id="p296" end="3111.0s">That's our fuel!</p>
+      <p begin="3124.5s" id="p297" end="3127.3s">Make way for the ripsaw!</p>
+      <p begin="3141.8s" id="p298" end="3145.6s">Once I'm over, clear the rocks and bring everyone through.</p>
+      <p begin="3145.7s" id="p299" end="3148.9s">Immortan! Immortan Joe!</p>
+      <p begin="3149.0s" id="p300" end="3152.7s">I got a War Boy! Says he was on the war rig!</p>
+      <p begin="3154.8s" id="p301" end="3157.7s">You! Climb aboard!</p>
+      <p begin="3158.8s" id="p302" end="3160.1s">Hey! Hey!</p>
+      <p begin="3161.2s" id="p303" end="3165.1s">I got his boot! I got the blood bag's boot!</p>
+      <p begin="3165.2s" id="p304" end="3168.9s">Take me! I got his boot!</p>
+      <p begin="3170.5s" id="p305" end="3172.9s">All this for a family squabble.</p>
+      <p begin="3173.8s" id="p306" end="3176.0s">Healthy babies.</p>
+      <p begin="3303.4s" id="p307" end="3305.3s">Reload the clip.</p>
+      <p begin="3305.4s" id="p308" end="3307.9s">I can't.</p>
+      <p begin="3313.7s" id="p309" end="3315.0s">Gun!</p>
+      <p begin="3315.9s" id="p310" end="3317.5s">- Give the gun! - It's not loaded yet!</p>
+      <p begin="3317.6s" id="p311" end="3320.1s">- You! We had a deal! - Now!</p>
+      <p begin="3368.5s" id="p312" end="3369.8s">Rictus!</p>
+      <p begin="3370.2s" id="p313" end="3372.8s">The wives! No more flames.</p>
+      <p begin="3379.3s" id="p314" end="3380.7s">Splendid!</p>
+      <p begin="3381.2s" id="p315" end="3386.1s">Splendid! That's my child! My property!</p>
+      <p begin="3388.2s" id="p316" end="3390.3s">Immorta...</p>
+      <p begin="3398.8s" id="p317" end="3402.7s">Immortan, if I get on the rig, there's a way inside.</p>
+      <p begin="3402.8s" id="p318" end="3405.3s">- What is your name? - It's Nux.</p>
+      <p begin="3405.4s" id="p319" end="3407.5s">I'll pike her in the spine. Keep her breathing for ya.</p>
+      <p begin="3407.7s" id="p320" end="3408.8s">No.</p>
+      <p begin="3409.0s" id="p321" end="3413.6s">Put a bullet in her skull, stop the rig, return my treasures to me,</p>
+      <p begin="3413.9s" id="p322" end="3419.7s">and I myself will carry you to the gates of Valhalla.</p>
+      <p begin="3420.1s" id="p323" end="3422.0s">Am I awaited?</p>
+      <p begin="3422.1s" id="p324" end="3426.8s">You will ride eternal... shiny and chrome.</p>
+      <p begin="3427.7s" id="p325" end="3429.4s">Rictus!</p>
+      <p begin="3429.5s" id="p326" end="3431.5s">Help him aboard!</p>
+      <p begin="3432.8s" id="p327" end="3434.5s">Ready?</p>
+      <p begin="3434.6s" id="p328" end="3436.7s">Here we go!</p>
+      <p begin="3447.6s" id="p329" end="3449.8s">Mediocre!</p>
+      <p begin="3479.3s" id="p330" end="3481.1s">Schlanger!</p>
+      <p begin="3500.7s" id="p331" end="3501.9s">Look out!</p>
+      <p begin="3505.0s" id="p332" end="3508.4s">Angharad! Get out!</p>
+      <p begin="3529.2s" id="p333" end="3531.1s">- No! - Angharad!</p>
+      <p begin="3545.7s" id="p334" end="3548.2s">Stop! Turn the rig around!</p>
+      <p begin="3549.1s" id="p335" end="3551.2s">Go back for her!</p>
+      <p begin="3552.0s" id="p336" end="3554.8s">- No. - Tell him to turn the rig around!</p>
+      <p begin="3554.9s" id="p337" end="3558.5s">- Did you see it? - She went under the wheels.</p>
+      <p begin="3558.6s" id="p338" end="3560.9s">Did you see it?</p>
+      <p begin="3561.6s" id="p339" end="3563.3s">She went under the wheels.</p>
+      <p begin="3564.7s" id="p340" end="3566.6s">- We keep moving. - No!</p>
+      <p begin="3566.7s" id="p341" end="3570.1s">- We keep moving! - He doesn't know what he's talking about!</p>
+      <p begin="3570.2s" id="p342" end="3572.2s">Whatever happens, we're going to the Green Place.</p>
+      <p begin="3572.3s" id="p343" end="3574.7s">The stupid Green Place. We don't even know where to find it.</p>
+      <p begin="3587.5s" id="p344" end="3590.5s">- You all right? - On! On!</p>
+      <p begin="3628.0s" id="p345" end="3629.0s">Cheedo!</p>
+      <p begin="3629.7s" id="p346" end="3631.0s">Cheedo, don't be stupid.</p>
+      <p begin="3631.2s" id="p347" end="3633.8s">- Stop! - He'll forgive us. I know he will.</p>
+      <p begin="3633.9s" id="p348" end="3636.9s">- There is no going back! - We were his treasures!</p>
+      <p begin="3637.0s" id="p349" end="3638.7s">- Cheedo! - We were protected.</p>
+      <p begin="3638.8s" id="p350" end="3640.0s">He gave us the high life.</p>
+      <p begin="3640.1s" id="p351" end="3642.2s">- What's wrong with that? - We are not things.</p>
+      <p begin="3643.4s" id="p352" end="3645.3s">No!</p>
+      <p begin="3645.8s" id="p353" end="3648.5s">- Cheedo, we are not things! - We are not things.</p>
+      <p begin="3648.6s" id="p354" end="3651.4s">- I don't want to hear that again! - They were her words!</p>
+      <p begin="3651.5s" id="p355" end="3653.8s">And now she's dead!</p>
+      <p begin="3654.1s" id="p356" end="3655.3s">Wring your hands.</p>
+      <p begin="3657.5s" id="p357" end="3660.5s">- You're not going back to him. - Angharad!</p>
+      <p begin="3660.6s" id="p358" end="3663.1s">Come on! Come on!</p>
+      <p begin="3679.8s" id="p359" end="3682.0s">So...</p>
+      <p begin="3682.7s" id="p360" end="3685.0s">Where is this...</p>
+      <p begin="3685.6s" id="p361" end="3687.9s">This Green Place?</p>
+      <p begin="3688.5s" id="p362" end="3690.5s">It's a long night's run, heading east.</p>
+      <p begin="3693.0s" id="p363" end="3697.5s">We need inventory. I want you to match every gun with its bullets.</p>
+      <p begin="3700.8s" id="p364" end="3702.4s">I'm gonna go down and do some repairs.</p>
+      <p begin="3702.6s" id="p365" end="3705.0s">- We need someone down the back. - I'll go.</p>
+      <p begin="3705.4s" id="p366" end="3708.6s">No. I want you to stay together.</p>
+      <p begin="3708.7s" id="p367" end="3710.3s">I can do it.</p>
+      <p begin="3743.1s" id="p368" end="3745.5s">What are you doing here?</p>
+      <p begin="3745.6s" id="p369" end="3749.8s">He saw it. He saw it all.</p>
+      <p begin="3750.4s" id="p370" end="3754.3s">My own blood bag drivin' the rig that killed her.</p>
+      <p begin="3760.7s" id="p371" end="3763.0s">Stop doing that.</p>
+      <p begin="3765.5s" id="p372" end="3766.4s">Stop.</p>
+      <p begin="3776.5s" id="p373" end="3779.4s">Thr... three times the gates were open to me.</p>
+      <p begin="3779.9s" id="p374" end="3781.4s">What gates?</p>
+      <p begin="3781.5s" id="p375" end="3785.7s">I was awaited in Valhalla. They were calling my name.</p>
+      <p begin="3785.8s" id="p376" end="3789.5s">I should be walking with the immorta, mcfeasting with the heroes of all time.</p>
+      <p begin="3793.0s" id="p377" end="3796.5s">I'd say it was your manifest destiny not to.</p>
+      <p begin="3797.9s" id="p378" end="3800.7s">I thought I was being spared for something great.</p>
+      <p begin="3800.8s" id="p379" end="3805.0s">I got to drive a pursuit vehicle.</p>
+      <p begin="3805.1s" id="p380" end="3808.4s">For a while even Larry and Barry stopped chewing on my windpipe.</p>
+      <p begin="3808.5s" id="p381" end="3810.2s">Who are Larry and Barry?</p>
+      <p begin="3811.1s" id="p382" end="3814.5s">My mates. Larry and Barry.</p>
+      <p begin="3816.1s" id="p383" end="3819.8s">If they don't get me, then the night fevers will.</p>
+      <p begin="3843.4s" id="p384" end="3848.5s">Well, we've only got four for big boy here, so he's all but useless.</p>
+      <p begin="3848.6s" id="p385" end="3855.0s">But we can squirt off this little pinky a raunchy 29 times.</p>
+      <p begin="3856.4s" id="p386" end="3858.4s">Angharad used to call them antiseed.</p>
+      <p begin="3859.5s" id="p387" end="3862.8s">Plant one and watch something die.</p>
+      <p begin="3956.9s" id="p388" end="3960.1s">We are down 30,000 units of guzzoline,</p>
+      <p begin="3960.2s" id="p389" end="3964.0s">19 canisters of nitro, 12 assault bikes,</p>
+      <p begin="3964.1s" id="p390" end="3967.1s">7 pursuit vehicles. The deficit mounts.</p>
+      <p begin="3967.2s" id="p391" end="3971.6s">And now, sir, you have us stuck in a quagmire.</p>
+      <p begin="3972.2s" id="p392" end="3973.6s">Hey, Joe!</p>
+      <p begin="3974.3s" id="p393" end="3975.6s">Boss!</p>
+      <p begin="3977.5s" id="p394" end="3980.2s">Your girly's breathing her last!</p>
+      <p begin="3980.3s" id="p395" end="3982.8s">What about the child?</p>
+      <p begin="3991.4s" id="p396" end="3994.9s">- Are ya comin', brother? - Wait!</p>
+      <p begin="3995.3s" id="p397" end="4000.5s">- It's gone awful quiet in there. - Get it out. Get it out!</p>
+      <p begin="4002.7s" id="p398" end="4004.8s">Come on! I've been called to the torture!</p>
+      <p begin="4005.9s" id="p399" end="4008.1s">Patience!</p>
+      <p begin="4008.6s" id="p400" end="4010.9s">Oh, you stay here with your grief, Daddy.</p>
+      <p begin="4011.2s" id="p401" end="4016.0s">- I'll fetch 'em for ya. - Be careful! Protect the assets!</p>
+      <p begin="4017.0s" id="p402" end="4019.7s">Just one angry shot...</p>
+      <p begin="4019.8s" id="p403" end="4021.7s">for Furiosa.</p>
+      <p begin="4021.8s" id="p404" end="4024.0s">Hut!</p>
+      <p begin="4030.3s" id="p405" end="4032.7s">Cryin' shame.</p>
+      <p begin="4033.1s" id="p406" end="4034.9s">Come.</p>
+      <p begin="4035.3s" id="p407" end="4037.0s">Nother month...</p>
+      <p begin="4037.1s" id="p408" end="4039.1s">Could've been your viable human.</p>
+      <p begin="4039.2s" id="p409" end="4042.2s">- Was it a male? - Your a-one Alpha prime.</p>
+      <p begin="4045.4s" id="p410" end="4047.7s">Hey, Rictus!</p>
+      <p begin="4048.1s" id="p411" end="4050.6s">You lost a baby brother.</p>
+      <p begin="4052.3s" id="p412" end="4055.1s">Perfect in every way.</p>
+      <p begin="4056.9s" id="p413" end="4061.0s">I had a baby brother! I had a little baby brother!</p>
+      <p begin="4061.1s" id="p414" end="4065.9s">And he was perfect! Perfect in every way!</p>
+      <p begin="4095.7s" id="p415" end="4096.8s">Come on.</p>
+      <p begin="4106.3s" id="p416" end="4109.4s">- Wouldn't wanna shoot the wives, sir. - Just probing.</p>
+      <p begin="4120.8s" id="p417" end="4123.2s">- He wants to help! - Who?!</p>
+      <p begin="4123.6s" id="p418" end="4126.0s">- The War Boy! - Where did he come from?!</p>
+      <p begin="4126.1s" id="p419" end="4129.1s">I thought we threw him off the rig!</p>
+      <p begin="4132.7s" id="p420" end="4134.7s">There's high ground just beyond that thing.</p>
+      <p begin="4134.8s" id="p421" end="4138.6s">- He means the tree. - Yeah. Tree!</p>
+      <p begin="4139.4s" id="p422" end="4141.9s">- Leave him to me. - Say, anyone notice that bright light?</p>
+      <p begin="4142.0s" id="p423" end="4144.3s">Encroaching gunfire?</p>
+      <p begin="4144.4s" id="p424" end="4146.4s">- Get out. - I can do this. I know this machine.</p>
+      <p begin="4146.5s" id="p425" end="4148.2s">He does. He's a revhead.</p>
+      <p begin="4153.8s" id="p426" end="4156.4s">You've got two left.</p>
+      <p begin="4161.3s" id="p427" end="4163.2s">On him.</p>
+      <p begin="4180.0s" id="p428" end="4182.1s">Don't breathe.</p>
+      <p begin="4185.7s" id="p429" end="4188.9s">Hey! Hey! Hey! War Boy!</p>
+      <p begin="4189.0s" id="p430" end="4191.7s">I'm gonna use the winch 'round the tree thing!</p>
+      <p begin="4192.7s" id="p431" end="4195.9s">Take this. Let's get the engine plates.</p>
+      <p begin="4197.1s" id="p432" end="4198.0s">You drive the rig!</p>
+      <p begin="4198.3s" id="p433" end="4200.8s">- Hold up a flare. - I am holding a flare!</p>
+      <p begin="4200.9s" id="p434" end="4204.2s">- Closer. - It's right in front of your eyes!</p>
+      <p begin="4215.5s" id="p435" end="4218.5s">Hut! Hut!</p>
+      <p begin="4223.7s" id="p436" end="4225.6s">Blood bag!</p>
+      <p begin="4231.3s" id="p437" end="4234.0s">I am the scales of justice!</p>
+      <p begin="4234.1s" id="p438" end="4238.3s">Conductor of the choir of death!</p>
+      <p begin="4241.0s" id="p439" end="4243.8s">Sing, brother koch!</p>
+      <p begin="4245.6s" id="p440" end="4249.1s">Sing, brothers, sing! Sing!</p>
+      <p begin="4250.3s" id="p441" end="4252.8s">Don't they know they're shooting at us?</p>
+      <p begin="4266.3s" id="p442" end="4268.6s">Gun fever!</p>
+      <p begin="4338.0s" id="p443" end="4340.1s">I never thought I'd do something as shine as that.</p>
+      <p begin="4340.7s" id="p444" end="4342.8s">How are the engines?</p>
+      <p begin="4342.9s" id="p445" end="4345.5s">Very hot and real thirsty.</p>
+      <p begin="4349.1s" id="p446" end="4354.3s">Hey. You need to take the war rig half a click down the track.</p>
+      <p begin="4354.4s" id="p447" end="4358.0s">What if you're not back by the time the engines have cooled?</p>
+      <p begin="4359.5s" id="p448" end="4362.3s">Well, you keep moving.</p>
+      <p begin="4370.5s" id="p449" end="4372.4s">What do you suppose he's gonna do?</p>
+      <p begin="4373.5s" id="p450" end="4376.1s">Retaliate first.</p>
+      <p begin="4378.5s" id="p451" end="4380.6s">Let's go!</p>
+      <p begin="4459.6s" id="p452" end="4462.0s">Are you hurt?</p>
+      <p begin="4462.4s" id="p453" end="4465.7s">- You're bleeding. - That's not his blood.</p>
+      <p begin="4467.6s" id="p454" end="4469.5s">What is this?</p>
+      <p begin="4469.8s" id="p455" end="4472.4s">It's mother's milk.</p>
+      <p begin="4513.5s" id="p456" end="4515.8s">It's okay. Sleep.</p>
+      <p begin="4517.1s" id="p457" end="4519.3s">Get some rest.</p>
+      <p begin="4529.1s" id="p458" end="4532.2s">How do you know this place even exists?</p>
+      <p begin="4534.3s" id="p459" end="4535.8s">I was born there.</p>
+      <p begin="4538.1s" id="p460" end="4539.6s">So why'd you leave?</p>
+      <p begin="4539.7s" id="p461" end="4542.3s">I didn't.</p>
+      <p begin="4542.4s" id="p462" end="4544.2s">I was taken as a child.</p>
+      <p begin="4546.1s" id="p463" end="4547.5s">Stolen.</p>
+      <p begin="4553.3s" id="p464" end="4556.8s">- You done this before? - Many times.</p>
+      <p begin="4558.0s" id="p465" end="4561.3s">Now that I drive a war rig...</p>
+      <p begin="4561.9s" id="p466" end="4563.9s">this is the best shot I'll ever have.</p>
+      <p begin="4565.1s" id="p467" end="4566.2s">And them?</p>
+      <p begin="4568.1s" id="p468" end="4570.8s">They're looking for hope.</p>
+      <p begin="4570.9s" id="p469" end="4573.5s">What about you?</p>
+      <p begin="4577.7s" id="p470" end="4579.8s">Redemption.</p>
+      <p begin="4622.5s" id="p471" end="4625.9s">Hey, what's that?</p>
+      <p begin="4637.5s" id="p472" end="4640.7s">I remember something like that.</p>
+      <p begin="4651.7s" id="p473" end="4654.3s">Help me!</p>
+      <p begin="4656.4s" id="p474" end="4659.2s">Help me!</p>
+      <p begin="4661.7s" id="p475" end="4664.3s">Help me, please!</p>
+      <p begin="4665.2s" id="p476" end="4667.4s">That's bait.</p>
+      <p begin="4667.7s" id="p477" end="4669.0s">Stay in the rig.</p>
+      <p begin="4674.3s" id="p478" end="4678.1s">Hurry! Please, hurry! They'll be back!</p>
+      <p begin="4678.7s" id="p479" end="4681.8s">I am one of the Vuvalini!</p>
+      <p begin="4681.9s" id="p480" end="4684.5s">Of the Many Mothers!</p>
+      <p begin="4685.3s" id="p481" end="4689.0s">My initiate mother was K.T. Concannon!</p>
+      <p begin="4689.7s" id="p482" end="4692.2s">I am the daughter of Mary Jabassa.</p>
+      <p begin="4693.5s" id="p483" end="4697.3s">My clan was Swaddle Dog!</p>
+      <p begin="4743.6s" id="p484" end="4744.8s">It's me.</p>
+      <p begin="4753.0s" id="p485" end="4755.1s">There's something in the eyes.</p>
+      <p begin="4755.2s" id="p486" end="4757.6s">Perhaps it is Jabassa's child.</p>
+      <p begin="4762.6s" id="p487" end="4765.3s">This is our Furiosa.</p>
+      <p begin="4766.9s" id="p488" end="4768.1s">How long has it been?</p>
+      <p begin="4769.9s" id="p489" end="4774.6s">7,000 days. Plus the ones I don't remember.</p>
+      <p begin="4775.4s" id="p490" end="4777.5s">Furiosa.</p>
+      <p begin="4777.8s" id="p491" end="4780.8s">What happened to your mother?</p>
+      <p begin="4780.9s" id="p492" end="4782.8s">She died.</p>
+      <p begin="4783.2s" id="p493" end="4785.5s">On the third day.</p>
+      <p begin="4791.8s" id="p494" end="4795.7s">- From where did you come? - The west. Citadel.</p>
+      <p begin="4795.8s" id="p495" end="4798.1s">Beyond the mountains.</p>
+      <p begin="4801.4s" id="p496" end="4803.7s">The men... who are they?</p>
+      <p begin="4803.8s" id="p497" end="4807.8s">They're reliable. They helped us get here.</p>
+      <p begin="4819.1s" id="p498" end="4822.2s">Where did you find such creatures?</p>
+      <p begin="4823.8s" id="p499" end="4825.8s">So soft.</p>
+      <p begin="4825.9s" id="p500" end="4828.8s">This one has all her teeth.</p>
+      <p begin="4836.4s" id="p501" end="4839.0s">I can't wait for them to see it.</p>
+      <p begin="4839.1s" id="p502" end="4841.1s">See?</p>
+      <p begin="4841.2s" id="p503" end="4844.9s">- See what? - Home.</p>
+      <p begin="4848.2s" id="p504" end="4849.9s">The Green Place.</p>
+      <p begin="4850.0s" id="p505" end="4855.5s">But if you came from the west, you passed it.</p>
+      <p begin="4855.9s" id="p506" end="4860.8s">The crows. The creepy place with all the crows.</p>
+      <p begin="4861.4s" id="p507" end="4862.8s">- The soil. - We had to get out.</p>
+      <p begin="4862.9s" id="p508" end="4864.7s">- We had no water and... - The water was filth.</p>
+      <p begin="4864.8s" id="p509" end="4868.3s">- It was poisoned. It was sour. - And the crows came.</p>
+      <p begin="4868.4s" id="p510" end="4870.4s">We couldn't grow anything.</p>
+      <p begin="4870.5s" id="p511" end="4873.0s">- Where are the others? - What others?</p>
+      <p begin="4873.1s" id="p512" end="4876.6s">- The Many Mothers. - We're the only ones left.</p>
+      <p begin="4937.1s" id="p513" end="4939.0s">Look.</p>
+      <p begin="4940.9s" id="p514" end="4943.8s">That's what you call a satellite.</p>
+      <p begin="4943.9s" id="p515" end="4946.1s">Miss Giddy told us about those.</p>
+      <p begin="4946.7s" id="p516" end="4950.1s">They used to bounce messages across the earth.</p>
+      <p begin="4950.2s" id="p517" end="4954.4s">Shows. Everyone in the old world had a show.</p>
+      <p begin="4956.8s" id="p518" end="4959.7s">Do you think there's still somebody out there?</p>
+      <p begin="4960.3s" id="p519" end="4964.6s">- Sending shows? - Who knows.</p>
+      <p begin="4964.7s" id="p520" end="4967.7s">Those are the plains of silence.</p>
+      <p begin="4969.6s" id="p521" end="4974.1s">Stay right where you are, little Joe. Kind of lost its novelty out here.</p>
+      <p begin="4974.2s" id="p522" end="4976.0s">You having a baby?</p>
+      <p begin="4976.9s" id="p523" end="4979.6s">Warlord Jr. Gonna be so ugly.</p>
+      <p begin="4980.4s" id="p524" end="4983.0s">It could be a girl.</p>
+      <p begin="4983.9s" id="p525" end="4987.9s">- You kill people with that, do ya? - Killed everyone I ever met out here.</p>
+      <p begin="4988.0s" id="p526" end="4990.6s">Headshots, all of 'em. Snap. Right in the medulla.</p>
+      <p begin="4990.7s" id="p527" end="4993.8s">Thought somehow you girls were above all that.</p>
+      <p begin="4997.2s" id="p528" end="4999.1s">Come here.</p>
+      <p begin="5006.3s" id="p529" end="5007.9s">Take a peek.</p>
+      <p begin="5008.0s" id="p530" end="5010.0s">Seeds.</p>
+      <p begin="5010.2s" id="p531" end="5014.1s">These are from home. Heirlooms. The real thing.</p>
+      <p begin="5014.8s" id="p532" end="5017.8s">- I plant one every chance I get. - Where?</p>
+      <p begin="5018.3s" id="p533" end="5021.7s">So far, nothing's took. Earth's too sour.</p>
+      <p begin="5021.8s" id="p534" end="5026.5s">- So many different kinds. - Trees, flowers, fruit.</p>
+      <p begin="5026.6s" id="p535" end="5028.6s">Back then, everyone had their fill.</p>
+      <p begin="5029.5s" id="p536" end="5032.9s">Back then, there was no need to snap anybody.</p>
+      <p begin="5047.5s" id="p537" end="5049.8s">Can I talk to you?</p>
+      <p begin="5068.4s" id="p538" end="5071.2s">I've talked with the others.</p>
+      <p begin="5077.0s" id="p539" end="5081.3s">We're never gonna have a better chance to make it across the salt.</p>
+      <p begin="5082.2s" id="p540" end="5086.6s">If we leave the rig here and load the motorcycles up with as much as we can,</p>
+      <p begin="5086.7s" id="p541" end="5090.1s">we can maybe ride for 160 days.</p>
+      <p begin="5091.9s" id="p542" end="5094.9s">One of those bikes is yours.</p>
+      <p begin="5095.0s" id="p543" end="5097.6s">Fully loaded.</p>
+      <p begin="5099.4s" id="p544" end="5102.2s">You're more than welcome to come with us.</p>
+      <p begin="5105.8s" id="p545" end="5108.6s">I'll... I'll make my own way.</p>
+      <p begin="5114.2s" id="p546" end="5117.4s">You know, hope is a mistake.</p>
+      <p begin="5123.2s" id="p547" end="5126.7s">If you can't fix what's broken, you'll...</p>
+      <p begin="5128.5s" id="p548" end="5130.9s">you'll go insane.</p>
+      <p begin="5146.1s" id="p549" end="5149.1s">Where are you, Max?</p>
+      <p begin="5150.0s" id="p550" end="5152.5s">Where are you?</p>
+      <p begin="5152.6s" id="p551" end="5155.4s">- Help us. - You promised to help us.</p>
+      <p begin="5165.4s" id="p552" end="5168.6s">Come on, pa. Let's go.</p>
+      <p begin="5199.5s" id="p553" end="5201.6s">All right.</p>
+      <p begin="5201.8s" id="p554" end="5204.9s">This is your way home.</p>
+      <p begin="5207.6s" id="p555" end="5209.8s">We go back?</p>
+      <p begin="5210.9s" id="p556" end="5212.9s">- Back? - Yeah.</p>
+      <p begin="5213.0s" id="p557" end="5216.2s">- I thought you weren't insane anymore. - What are they saying?</p>
+      <p begin="5216.3s" id="p558" end="5218.7s">He wants to go back from where they came.</p>
+      <p begin="5218.8s" id="p559" end="5221.0s">The Citadel.</p>
+      <p begin="5221.1s" id="p560" end="5223.0s">And what's there to find at The Citadel?</p>
+      <p begin="5223.1s" id="p561" end="5225.8s">- Green. - And water.</p>
+      <p begin="5227.2s" id="p562" end="5231.0s">There's a ridiculous amount of clear water. And a lot of crops.</p>
+      <p begin="5231.1s" id="p563" end="5233.7s">It's got everything you need, as long as you're not afraid of heights.</p>
+      <p begin="5233.8s" id="p564" end="5236.5s">- Where does the water come from? - He pumps it up from deep in the earth.</p>
+      <p begin="5236.6s" id="p565" end="5238.9s">Calls it Aqua Cola and claims it all for himself.</p>
+      <p begin="5239.3s" id="p566" end="5241.5s">And because he owns it, he owns all of us.</p>
+      <p begin="5241.6s" id="p567" end="5243.1s">I don't like him already.</p>
+      <p begin="5243.2s" id="p568" end="5245.7s">It'll take two weeks to skirt the wall of mountains.</p>
+      <p begin="5245.8s" id="p569" end="5250.7s">No. I suggest we go back the same way we came.</p>
+      <p begin="5251.2s" id="p570" end="5253.7s">Through the canyon.</p>
+      <p begin="5253.8s" id="p571" end="5257.5s">It's open. We know that. Right? He brought all his war parties through.</p>
+      <p begin="5258.2s" id="p572" end="5261.7s">So we take the war rig and we charge it right through the middle of them.</p>
+      <p begin="5261.8s" id="p573" end="5264.7s">We can decouple the tanker at the pass.</p>
+      <p begin="5264.8s" id="p574" end="5267.5s">- Shut it off behind us. - Kaboom!</p>
+      <p begin="5270.5s" id="p575" end="5275.2s">And how exactly do we take The Citadel? Assuming we're still alive by then?</p>
+      <p begin="5275.7s" id="p576" end="5278.1s">If we can block the pass, it'll be easy.</p>
+      <p begin="5278.4s" id="p577" end="5282.0s">All that's left are his war pups and War Boys too sick to fight.</p>
+      <p begin="5282.9s" id="p578" end="5286.5s">And we'll be with Nux. He's a War Boy.</p>
+      <p begin="5286.6s" id="p579" end="5289.2s">He'll be bringing us home, bringing back what's stolen, as he's meant to.</p>
+      <p begin="5292.9s" id="p580" end="5294.9s">Yeah.</p>
+      <p begin="5295.0s" id="p581" end="5297.0s">It feels like hope.</p>
+      <p begin="5297.8s" id="p582" end="5301.5s">I like this plan. We can start again.</p>
+      <p begin="5301.6s" id="p583" end="5304.4s">Just like the old days.</p>
+      <p begin="5304.8s" id="p584" end="5308.6s">Look, it'll be a hard day.</p>
+      <p begin="5308.9s" id="p585" end="5311.8s">But I guarantee you that 160 days ridin' that way,</p>
+      <p begin="5314.4s" id="p586" end="5316.3s">there's nothin' but salt.</p>
+      <p begin="5318.9s" id="p587" end="5322.7s">At least that way, you know, we might be able to...</p>
+      <p begin="5323.3s" id="p588" end="5325.3s">together...</p>
+      <p begin="5326.1s" id="p589" end="5327.9s">Come across some kind of redemption.</p>
+      <p begin="5358.7s" id="p590" end="5362.3s">War rig! That's the war rig!</p>
+      <p begin="5372.2s" id="p591" end="5375.0s">- That's them. - Why are they going back?</p>
+      <p begin="5375.4s" id="p592" end="5378.0s">Do they wish to surrender?</p>
+      <p begin="5378.1s" id="p593" end="5381.1s">They are heading for the canyon.</p>
+      <p begin="5381.2s" id="p594" end="5384.4s">They're going back to The Citadel!</p>
+      <p begin="5384.5s" id="p595" end="5388.0s">- They know it's undefended! - Bullocks!</p>
+      <p begin="5400.2s" id="p596" end="5401.5s">Go!</p>
+      <p begin="5423.9s" id="p597" end="5425.6s">- What are you doing? - Praying.</p>
+      <p begin="5425.7s" id="p598" end="5428.8s">- To who? - Anyone that's listening.</p>
+      <p begin="5452.7s" id="p599" end="5455.4s">Here we go, girls!</p>
+      <p begin="5456.3s" id="p600" end="5458.1s">That's mine!</p>
+      <p begin="5462.0s" id="p601" end="5464.7s">He'll try to get in front of us, spike our wheels.</p>
+      <p begin="5471.3s" id="p602" end="5472.9s">Don't blow my engine.</p>
+      <p begin="5473.0s" id="p603" end="5475.8s">I'm gonna nudge him. Just a little.</p>
+      <p begin="5488.2s" id="p604" end="5491.0s">You filth! You traitored him!</p>
+      <p begin="5515.0s" id="p605" end="5516.9s">Go.</p>
+      <p begin="5542.4s" id="p606" end="5546.6s">Got to back off. Engine one is gone. Two's about to blow.</p>
+      <p begin="5546.7s" id="p607" end="5548.3s">Right.</p>
+      <p begin="5548.4s" id="p608" end="5550.1s">Are you a black thumb?</p>
+      <p begin="5550.2s" id="p609" end="5553.4s">All right. Engine one now. You and me, fifth wheel.</p>
+      <p begin="5554.1s" id="p610" end="5556.6s">We'll unhook the tanker.</p>
+      <p begin="5567.9s" id="p611" end="5570.5s">One man, one bullet.</p>
+      <p begin="5586.5s" id="p612" end="5588.2s">- I cannot see. - Maadi! Maadi!</p>
+      <p begin="5588.3s" id="p613" end="5590.6s">I cannot see.</p>
+      <p begin="5629.1s" id="p614" end="5633.8s">Hey! Harpoons and plows! They're hauling us back!</p>
+      <p begin="5644.7s" id="p615" end="5647.6s">Leave three bolts. Three.</p>
+      <p begin="5725.1s" id="p616" end="5727.1s">Hey, you!</p>
+      <p begin="5742.1s" id="p617" end="5744.4s">Are you okay?</p>
+      <p begin="5746.2s" id="p618" end="5748.8s">I think she's hurt.</p>
+      <p begin="5771.6s" id="p619" end="5772.7s">Hey!</p>
+      <p begin="5798.6s" id="p620" end="5800.3s">No!</p>
+      <p begin="5809.4s" id="p621" end="5812.4s">Hey. Stay with me.</p>
+      <p begin="5812.5s" id="p622" end="5814.3s">- Stay with me. - Stay with me.</p>
+      <p begin="5814.4s" id="p623" end="5816.0s">Hey. Are you there?</p>
+      <p begin="5817.2s" id="p624" end="5819.8s">You finish that! I'll finish her!</p>
+      <p begin="5909.6s" id="p625" end="5911.5s">Valhalla!</p>
+      <p begin="5922.9s" id="p626" end="5924.0s">Oi!</p>
+      <p begin="5951.7s" id="p627" end="5955.3s">Engine one's good. For now.</p>
+      <p begin="6002.6s" id="p628" end="6005.5s">She's hurt! She's hurt real bad!</p>
+      <p begin="6095.8s" id="p629" end="6099.1s">You hear that? We're gonna see two airborne V-8s.</p>
+      <p begin="6100.6s" id="p630" end="6103.2s">I'm gonna need you to drive.</p>
+      <p begin="6104.5s" id="p631" end="6106.7s">I'll get him out of our way.</p>
+      <p begin="6173.3s" id="p632" end="6175.6s">Rictus!</p>
+      <p begin="6175.7s" id="p633" end="6177.8s">Take me!</p>
+      <p begin="6190.0s" id="p634" end="6192.9s">Cheedo! What are you doing?</p>
+      <p begin="6197.2s" id="p635" end="6198.7s">No!</p>
+      <p begin="6202.9s" id="p636" end="6204.9s">Big boy!</p>
+      <p begin="6210.5s" id="p637" end="6212.4s">Here! Here!</p>
+      <p begin="6264.3s" id="p638" end="6265.8s">No!</p>
+      <p begin="6266.3s" id="p639" end="6268.2s">Remember me?</p>
+      <p begin="6288.9s" id="p640" end="6291.9s">He's dead! He's dead.</p>
+      <p begin="6310.8s" id="p641" end="6314.5s">When you're across safe, I'll jam the throttle and follow you.</p>
+      <p begin="6314.6s" id="p642" end="6315.6s">Come on!</p>
+      <p begin="6316.8s" id="p643" end="6320.4s">Hurry! We're nearly at the pass.</p>
+      <p begin="6366.9s" id="p644" end="6369.5s">Witness me.</p>
+      <p begin="6375.0s" id="p645" end="6377.5s">Rictus!</p>
+      <p begin="6431.6s" id="p646" end="6435.9s">- Why is she making that noise? - She's pumping air into her chest cavity.</p>
+      <p begin="6436.0s" id="p647" end="6440.0s">She's collapsing her lungs one breath at a time.</p>
+      <p begin="6445.5s" id="p648" end="6447.3s">I know.</p>
+      <p begin="6449.6s" id="p649" end="6452.1s">I am so sorry.</p>
+      <p begin="6453.9s" id="p650" end="6456.1s">I know. I know.</p>
+      <p begin="6456.2s" id="p651" end="6458.4s">Hold it there.</p>
+      <p begin="6458.5s" id="p652" end="6460.0s">All right.</p>
+      <p begin="6460.1s" id="p653" end="6462.6s">Put that on there. Press it on.</p>
+      <p begin="6462.7s" id="p654" end="6466.4s">- Hey. Hey. - Home.</p>
+      <p begin="6473.7s" id="p655" end="6475.9s">Home.</p>
+      <p begin="6480.7s" id="p656" end="6482.3s">No. No, no, no. No, no, no, no.</p>
+      <p begin="6482.4s" id="p657" end="6485.0s">She's exsanguinated. Drained all her blood.</p>
+      <p begin="6486.8s" id="p658" end="6488.5s">Hold these.</p>
+      <p begin="6488.6s" id="p659" end="6491.7s">We need that. Thank you. Needle.</p>
+      <p begin="6492.7s" id="p660" end="6494.6s">Come on!</p>
+      <p begin="6495.0s" id="p661" end="6497.1s">Take this.</p>
+      <p begin="6498.9s" id="p662" end="6500.3s">Keep her awake.</p>
+      <p begin="6500.4s" id="p663" end="6501.6s">Furiosa.</p>
+      <p begin="6505.4s" id="p664" end="6508.1s">Okay, that's not retracting.</p>
+      <p begin="6508.2s" id="p665" end="6510.4s">There we go.</p>
+      <p begin="6510.5s" id="p666" end="6513.4s">All right, hold it up. Hold it up.</p>
+      <p begin="6513.7s" id="p667" end="6515.4s">Okay.</p>
+      <p begin="6515.5s" id="p668" end="6517.5s">Sorry.</p>
+      <p begin="6518.3s" id="p669" end="6521.3s">There you go. Okay. There you go.</p>
+      <p begin="6533.4s" id="p670" end="6534.7s">Max.</p>
+      <p begin="6536.0s" id="p671" end="6538.5s">My name is Max.</p>
+      <p begin="6546.1s" id="p672" end="6548.7s">That's my name.</p>
+      <p begin="6589.7s" id="p673" end="6591.6s">Brake!</p>
+      <p begin="6596.3s" id="p674" end="6598.8s">Reveal yourself.</p>
+      <p begin="6616.4s" id="p675" end="6617.8s">He's got something.</p>
+      <p begin="6624.5s" id="p676" end="6626.1s">It's Immortan Joe.</p>
+      <p begin="6626.2s" id="p677" end="6629.2s">The Immortan Joe is dead!</p>
+      <p begin="6655.3s" id="p678" end="6657.5s">Furiosa!</p>
+      <p begin="6661.7s" id="p679" end="6662.9s">Furiosa!</p>
+      <p begin="6663.3s" id="p680" end="6665.7s">She's back.</p>
+      <p begin="6675.3s" id="p681" end="6677.7s">Let's do it! Let 'em up. Come on.</p>
+    </div>
+  </body>
+</tt>

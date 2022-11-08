@@ -6,9 +6,8 @@
             <coordenadas lat="43.354933" long="-5.8514295" alt="259.9078972"/>
         </nacimiento>
         <residencia lugar="Caboalles de Abajo">
-                        <coordenadas lat="42.9526827" long="-6.3755552" alt="1.054.7566915"/>
-                    </residencia>
-        <fotografia url = "miguel.jpg"/>
+            <coordenadas lat="42.9526827" long="-6.3755552" alt="1.054.7566915"/>
+        </residencia>       
         <amigo nombre="Ana Maria" apellidos="Palomero Pescador" comentarios="Huérfana de padre">
             <nacimiento lugar="Caboalles de Abajo" fecha="1917-12-03">
                 <coordenadas lat="42.9521477" long="-6.374352" alt="1.044.0396361"/>
@@ -16,7 +15,6 @@
             <residencia lugar="Caboalles de Abajo">
                 <coordenadas lat="42.9526827" long="-6.3755552" alt="1.054.7566915"/>
             </residencia>
-            <fotografia url = "anamari.jpg"/>
             <amigo nombre="Javier" apellidos="Menendez Jimenez" comentarios="Ganadero">
                 <nacimiento lugar="Helgueras" fecha="1916-04-17">
                     <coordenadas lat="43.3563116" long="-5.1206803" alt="199.8421655"/>
@@ -44,6 +42,7 @@
                 </residencia>
                 <fotografia url = "alex.jpg"/>
             </amigo>
+            <fotografia url = "anamari.jpg"/>
         </amigo> 
         <amigo nombre="Luis" apellidos="Menendez Fernandez" comentarios="Padre"> 
             <nacimiento lugar="Oviedo" fecha="1970-12-11">
@@ -52,7 +51,6 @@
             <residencia lugar="Caboalles de Abajo">
                 <coordenadas lat="42.9526827" long="-6.3755552" alt="1.054.7566915"/>        
             </residencia>
-            <fotografia url = "luis.jpg"/>
             <amigo nombre="Manuel" apellidos="Menendez Gutierrez" comentarios="Primer universitario">
                 <nacimiento lugar="Cangas de Onís" fecha="1941-07-29">
                     <coordenadas lat="43.3507281" long="-5.1287966" alt="66.3388045"/>
@@ -80,6 +78,7 @@
                 </residencia>
                 <fotografia url = "laura.jpg"/>
             </amigo>
+            <fotografia url = "luis.jpg"/>
         </amigo>
         <amigo nombre="Ana" apellidos="Rodriguez Garcia" comentarios="Madre">
             <nacimiento lugar="Villablino" fecha="1972-11-21">
@@ -88,7 +87,7 @@
             <residencia lugar="Caboalles de Abajo">
                         <coordenadas lat="42.9526827" long="-6.3755552" alt="1.054.7566915"/>
             </residencia>
-            <fotografia url = "ana.jpg"/>
+            
             <amigo nombre="Maria Jose" apellidos="Garcia Palomero" comentarios="Hija única">
                 <nacimiento lugar="Caboalles de Abajo" fecha="1920-02-14">
                     <coordenadas lat="42.9521477" long="-6.374352" alt="1.044.0396361"/>
@@ -116,6 +115,8 @@
                 </residencia>
                 <fotografia url = "munia.jpg"/>
             </amigo>
+            <fotografia url = "ana.jpg"/>
         </amigo>
+        <fotografia url = "miguel.jpg"/>
     </amigo>
 </red_social>
