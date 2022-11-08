@@ -32,6 +32,7 @@ def getText():
     html = '<!DOCTYPE HTML>\n<html lang="es">\n'
     html += '<head>\n<meta charset="UTF-8">\n<title>Red social</title>\n'
     html += '<meta name="author" content="Miguel Menéndez Rodríguez"/>\n'
+    html += '<meta name ="viewport" content ="width=device-width, initial-scale=1.0" />\n'
     html += '<link rel="stylesheet" type="text/css" href="estilo.css" />\n</head>\n'
     html += parseXml()
     html += '</html>'
