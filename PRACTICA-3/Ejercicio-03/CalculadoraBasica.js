@@ -87,15 +87,28 @@ class CalculadoraBasica{
     }
 
     percentage(){
-        this.operation += "%";
-        this.solved = false;
+        if(this.operation.includes('/') ){
+            this.operation += '*100'
+        } else if(this.operation.includes('*')){
+            this.operation += '/100'
+        } else if(this.operation.includes('+')){
+            var a = this.operation.split('+')
+            this.operation = a[0] + '+' + a[0]*a[1]/100
+        } else if(this.operation.includes('-')){
+            var a = this.operation.split('-')
+            this.operation = a[0] + '-' + a[0]*a[1]/100
+        }
+             
+        this.operation = eval(this.operation)
+        
+        this.solved = true;
         this.pointUsed = false;
         document.querySelector("body > form > input:nth-child(1)").value = this.operation;
     }
 
     sign(){
-        this.operation = document.querySelector("body > form > input:nth-child(1)").value+ "*-1"
         this.operation = eval(this.operation);
+        this.operation = eval(this.operation + '*-1')
         this.solved = false;
         if(!this.pointUsed)
             this.pointUsed = false;

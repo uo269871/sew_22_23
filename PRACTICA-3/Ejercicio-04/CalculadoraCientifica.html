@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="author" content="Miguel Menéndez Rodríguez">
+    <title>Calculadora Cientifica</title>
+    <link rel="stylesheet" type="text/css" href="CalculadoraCientifica.css">
+</head>
+
+<body>
+    <script src="CalculadoraCientifica.js"></script>
+    <h1>Calculadora Cientifica</h1>
+    <p>Calculadora Cientifica</p>
+    <form action ="" method="get">
+        <textarea title="hola" disabled></textarea>
+
+        <input type="button" value="mc" onclick="c.mc()"/>
+        <input type="button" value="mr" onclick="c.mr()"/>
+        <input type="button" value="m+" onclick="c.mMas()"/>
+        <input type="button" value="m-" onclick="c.mMenos()"/>
+        <input type="button" value="ms" onclick="c.ms()"/>
+
+        <input type="button" value="x^3" onclick="c.x3()"/>
+        <input type="button" value="v3" onclick="c.v3()"/>
+        <input type="button" value="sin" onclick="c.sin()"/>
+        <input type="button" value="cos" onclick="c.cos()"/>
+        <input type="button" value="tan" onclick="c.tan()"/>
+
+        <input type="button" value="2^x" onclick="c.dosX()"/>
+        <input type="button" value="pi" onclick="c.pi()"/>
+        <input type="button" value="e" onclick="c.e()"/>
+        <input type="button" value="e^x" onclick="c.ex()"/>
+        <input type="submit" value="C" onclick="c.borrar()"/>
+        
+        <input type="button" value="x2" onclick="c.x2()"/>
+        <input type="button" value="1/x" onclick="c.inv()"/>
+        <input type="button" value="abs" onclick="c.abs()"/>
+        <input type="button" value="exp" onclick="c.exp()"/>
+        <input type="button" value="mod" onclick="c.mod()"/>
+
+        <input type="button" value="vx" onclick="c.root()"/>
+        <input type="button" value="(" onclick="c.parIzq()"/>
+        <input type="button" value=")" onclick="c.parDer()"/>
+        <input type="button" value="n!" onclick="c.fact()"/>
+        <input type="button" value="/" onclick="c.div()"/>
+
+        <input type="button" value="xy" onclick="c.xy()"/>
+        <input type="button" value="7" onclick="c.digitos('7')"/>
+        <input type="button" value="8" onclick="c.digitos('8')"/>
+        <input type="button" value="9" onclick="c.digitos('9')"/>
+        <input type="button" value="*" onclick="c.mult()"/>
+
+        <input type="button" value="10^x" onclick="c.pow10()"/>
+        <input type="button" value="4" onclick="c.digitos('4')"/>
+        <input type="button" value="5" onclick="c.digitos('5')"/>
+        <input type="button" value="6" onclick="c.digitos('6')"/>
+        <input type="button" value="-" onclick="c.resta()"/>
+
+        <input type="button" value="log" onclick="c.log()"/>
+        <input type="button" value="1" onclick="c.digitos('1')"/>
+        <input type="button" value="2" onclick="c.digitos('2')"/>
+        <input type="button" value="3" onclick="c.digitos('3')"/>
+        <input type="button" value="+" onclick="c.suma()"/>
+
+        <input type="button" value="ln" onclick="c.ln()"/>
+        <input type="button" value="+-" onclick="c.sign()"/>
+        <input type="button" value="0" onclick="c.digitos('0')"/>
+        <input type="button" value="." onclick="c.punto()"/>
+        <input type="button" value="=" onclick="c.igual()"/>
+        
+    </form>
+</body>
+</html>
