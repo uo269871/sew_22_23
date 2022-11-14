@@ -164,152 +164,152 @@ class CalculadoraCientifica extends CalculadoraBasica{
     }
 
     ln(){
-        this.operation = Math.log(document.querySelector("body > form > textarea").textContent)
+        this.operation = Math.log(document.querySelector("body > form > input:nth-child(1)").value)
         this.solved = true;
         this.pointUsed = false;
-        document.querySelector("body > form > textarea").textContent = this.operation
+        document.querySelector("body > form > input:nth-child(1)").value = this.operation
     }
 
     log(){
-        this.operation = Math.log10(document.querySelector("body > form > textarea").textContent)
+        this.operation = Math.log10(document.querySelector("body > form > input:nth-child(1)").value)
         this.solved = true;
         this.pointUsed = false;
-        document.querySelector("body > form > textarea").textContent = this.operation
+        document.querySelector("body > form > input:nth-child(1)").value = this.operation
     }
 
     pi(){
         this.operation = Math.PI
         this.solved = true;
         this.pointUsed = false;
-        document.querySelector("body > form > textarea").textContent = this.operation
+        document.querySelector("body > form > input:nth-child(1)").value = this.operation
     }
 
     e(){
         this.operation = Math.E
         this.solved = true;
         this.pointUsed = false;
-        document.querySelector("body > form > textarea").textContent = this.operation
+        document.querySelector("body > form > input:nth-child(1)").value = this.operation
     }
 
     abs(){
-        this.operation = Math.abs(document.querySelector("body > form > textarea").textContent)
+        this.operation = Math.abs(document.querySelector("body > form > input:nth-child(1)").value)
         this.solved = true;
         this.pointUsed = false;
-        document.querySelector("body > form > textarea").textContent = this.operation
+        document.querySelector("body > form > input:nth-child(1)").value = this.operation
     }
 
     fact(){
         this.operation = Math.PI
         this.solved = true;
         this.pointUsed = false;
-        document.querySelector("body > form > textarea").textContent = this.operation
+        document.querySelector("body > form > input:nth-child(1)").value = this.operation
     }
 
     pow10(){
-        this.operation = Math.pow(10,document.querySelector("body > form > textarea").textContent)
+        this.operation = Math.pow(10,document.querySelector("body > form > input:nth-child(1)").value)
         this.solved = true;
         this.pointUsed = false;
-        document.querySelector("body > form > textarea").textContent = this.operation
+        document.querySelector("body > form > input:nth-child(1)").value = this.operation
     }
 
     x2(){
-        this.operation = Math.pow(document.querySelector("body > form > textarea").textContent,2)
+        this.operation = Math.pow(document.querySelector("body > form > input:nth-child(1)").value,2)
         this.solved = true;
         this.pointUsed = false;
-        document.querySelector("body > form > textarea").textContent = this.operation
+        document.querySelector("body > form > input:nth-child(1)").value = this.operation
     }
 
     x3(){
-        this.operation = Math.pow(document.querySelector("body > form > textarea").textContent,3)
+        this.operation = Math.pow(document.querySelector("body > form > input:nth-child(1)").value,3)
         this.solved = true;
         this.pointUsed = false;
-        document.querySelector("body > form > textarea").textContent = this.operation
+        document.querySelector("body > form > input:nth-child(1)").value = this.operation
     }
 
     dosX(){
-        this.operation = Math.pow(2,document.querySelector("body > form > textarea").textContent)
+        this.operation = Math.pow(2,document.querySelector("body > form > input:nth-child(1)").value)
         this.solved = true;
         this.pointUsed = false;
-        document.querySelector("body > form > textarea").textContent = this.operation
+        document.querySelector("body > form > input:nth-child(1)").value = this.operation
     }
 
     xy(){
-        this.operation = document.querySelector("body > form > textarea").textContent + "**"
+        this.operation = document.querySelector("body > form > input:nth-child(1)").value + "**"
         this.solved = true;
         this.pointUsed = false;
-        document.querySelector("body > form > textarea").textContent = this.operation
+        document.querySelector("body > form > input:nth-child(1)").value = this.operation
     }
 
     ex(){
-        this.operation = Math.exp(Number(document.querySelector("body > form > textarea").textContent))
+        this.operation = Math.exp(Number(document.querySelector("body > form > input:nth-child(1)").value))
         this.solved = true;
         this.pointUsed = false;
-        document.querySelector("body > form > textarea").textContent = this.operation
+        document.querySelector("body > form > input:nth-child(1)").value = this.operation
         
     }
 
 
     v3(){
-        this.operation = Math.cbrt(Number(document.querySelector("body > form > textarea").textContent))
+        this.operation = Math.cbrt(Number(document.querySelector("body > form > input:nth-child(1)").value))
         this.solved = true;
         this.pointUsed = false;
-        document.querySelector("body > form > textarea").textContent = this.operation
+        document.querySelector("body > form > input:nth-child(1)").value = this.operation
     }
 
     inv(){
-        this.operation = "1/" + document.querySelector("body > form > textarea").textContent
+        this.operation = "1/" + document.querySelector("body > form > input:nth-child(1)").value
         this.solved = true
         this.pointUsed = false
-        document.querySelector("body > form > textarea").textContent = eval(this.operation)
+        document.querySelector("body > form > input:nth-child(1)").value = eval(this.operation)
     }
 
     mod(){
-        this.operation = document.querySelector("body > form > textarea").textContent + "%"
+        this.operation = document.querySelector("body > form > input:nth-child(1)").value + "%"
         this.solved = false;
         this.pointUsed = false;
-        document.querySelector("body > form > textarea").textContent = this.operation
+        document.querySelector("body > form > input:nth-child(1)").value = this.operation
     }
 
     sin(){
-        this.operation = Math.sin(Number(document.querySelector("body > form > textarea").textContent))
+        this.operation = Math.sin(Number(document.querySelector("body > form > input:nth-child(1)").value))
         this.solved = true;
         this.pointUsed = false;
-        document.querySelector("body > form > textarea").textContent = this.operation
+        document.querySelector("body > form > input:nth-child(1)").value = this.operation
     }
 
     cos(){
-        this.operation = Math.cos(Number(document.querySelector("body > form > textarea").textContent))
+        this.operation = Math.cos(Number(document.querySelector("body > form > input:nth-child(1)").value))
         this.solved = true;
         this.pointUsed = false;
-        document.querySelector("body > form > textarea").textContent = this.operation
+        document.querySelector("body > form > input:nth-child(1)").value = this.operation
     }
 
     tan(){
-        this.operation = Math.tan(Number(document.querySelector("body > form > textarea").textContent))
+        this.operation = Math.tan(Number(document.querySelector("body > form > input:nth-child(1)").value))
         this.solved = true;
         this.pointUsed = false;
-        document.querySelector("body > form > textarea").textContent = this.operation
+        document.querySelector("body > form > input:nth-child(1)").value = this.operation
     }
 
     parIzq(){
-        this.operation = document.querySelector("body > form > textarea").textContent + "("
+        this.operation = document.querySelector("body > form > input:nth-child(1)").value + "("
         this.solved = false;
         this.pointUsed = false;
-        document.querySelector("body > form > textarea").textContent = this.operation
+        document.querySelector("body > form > input:nth-child(1)").value = this.operation
     }
 
     parDer(){
-        this.operation = document.querySelector("body > form > textarea").textContent + ")"
+        this.operation = document.querySelector("body > form > input:nth-child(1)").value + ")"
         this.solved = false;
         this.pointUsed = false;
-        document.querySelector("body > form > textarea").textContent = this.operation
+        document.querySelector("body > form > input:nth-child(1)").value = this.operation
     }
 
     exp(){
-        this.operation = document.querySelector("body > form > textarea").textContent + ".e+"
+        this.operation = document.querySelector("body > form > input:nth-child(1)").value + ".e+"
         this.solved = false;
         this.pointUsed = true;
-        document.querySelector("body > form > textarea").textContent = this.operation
+        document.querySelector("body > form > input:nth-child(1)").value = this.operation
     }
       
     factorial(n) {
@@ -322,11 +322,11 @@ class CalculadoraCientifica extends CalculadoraBasica{
     }
 
     fact(){
-        var i = Number(document.querySelector("body > form > textarea").textContent)
+        var i = Number(document.querySelector("body > form > input:nth-child(1)").value)
         this.operation = this.factorial(i)
         this.solved = true;
         this.pointUsed = false;
-        document.querySelector("body > form > textarea").textContent = this.operation
+        document.querySelector("body > form > input:nth-child(1)").value = this.operation
     }
 
     mc(){
@@ -334,13 +334,13 @@ class CalculadoraCientifica extends CalculadoraBasica{
     }
 
     mr(){
-        document.querySelector("body > form > textarea").textContent = this.memory;
+        document.querySelector("body > form > input:nth-child(1)").value = this.memory;
         this.operation = this.memory;
     }
 
     ms(){
-        if (!isNaN(document.querySelector("body > form > textarea").textContent))
-            this.memory = document.querySelector("body > form > textarea").textContent;
+        if (!isNaN(document.querySelector("body > form > input:nth-child(1)").value))
+            this.memory = document.querySelector("body > form > input:nth-child(1)").value;
     }
 }
 
