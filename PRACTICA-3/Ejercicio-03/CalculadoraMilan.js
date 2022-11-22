@@ -1,28 +1,44 @@
 "use strict";
-class CalculadoraBasica{
-    constructor(){
+class CalculadoraBasica {
+    constructor() {
         this.operation = ""
         this.memory = ""
         this.pointUsed = false
         this.pantalla = ""
-        document.addEventListener("keydown", (event) => {
-            const keyName = event.key.replace(/[^\d.\-\/\*\+]/g, '');
-            if (this.solved && !["*", "/", "-", "+"].some(el => keyName.includes(el))) {
-                document.querySelector("body > form > input:nth-child(1)").value = "";
-                this.solved = false;
-                this.operation = "";
-                
-            }
-            if (["*", "/", "-", "+"].some(el => keyName.includes(el))) {
-                this.solved = false;
-            }
-            document.querySelector("body > form > input:nth-child(1)").value += keyName;
-            this.operation += keyName
-            if (event.code.match("Enter")) {
-                this.igual();
-                this.solved = true;
-            }
-        });
+        document.addEventListener("keydown", (event) => this.manejarEvento(event));
+    }
+
+    manejarEvento(event) {
+        const keyName = event.key.replace(/[^\d.\-\/\*\+]/g, '');
+        switch (keyName) {
+            case '+':
+                this.suma()
+                break;
+            case '-':
+                this.resta()
+                break;
+            case '*':
+                this.mult()
+                break;
+            case '/':
+                this.div()
+                break;
+            case '0':
+            case '1':
+            case '2':
+            case '3':
+            case '4':
+            case '5':
+            case '6':
+            case '7':
+            case '8':
+            case '9':
+                this.digitos(keyName)
+                break;
+        }
+        if (event.code.match("Enter")) {
+            this.igual();
+        }
     }
 
     digitos(arg) {
@@ -31,15 +47,15 @@ class CalculadoraBasica{
             this.operation = "";
             this.pantalla = ""
         }
-        if(this.pantalla.length <=7 || (this.pantalla.length <= 8 && this.pantalla.includes('.'))){
+        if (this.pantalla.length <= 7 || (this.pantalla.length <= 8 && this.pantalla.includes('.'))) {
             this.pantalla += arg;
         }
-        
+
         document.querySelector("body > form > input:nth-child(1)").value = this.pantalla;
     }
 
     punto() {
-        if(!this.pointUsed){
+        if (!this.pointUsed) {
             this.pantalla += '.'
             document.querySelector("body > form > input:nth-child(1)").value = this.pantalla;
             this.pointUsed = true
@@ -87,34 +103,34 @@ class CalculadoraBasica{
         this.pointUsed = false;
     }
 
-    root(){
+    root() {
         this.pantalla = Math.sqrt(Number(this.pantalla))
         this.solved = false;
         this.pointUsed = false;
         document.querySelector("body > form > input:nth-child(1)").value = this.pantalla
     }
 
-    percentage(){
-        if(this.operation.includes('/') ){
+    percentage() {
+        if (this.operation.includes('/')) {
             this.operation += '*100'
-        } else if(this.operation.includes('*')){
+        } else if (this.operation.includes('*')) {
             this.operation += '/100'
-        } else if(this.operation.includes('+')){
+        } else if (this.operation.includes('+')) {
             var a = this.operation.split('+')
-            this.operation = a[0] + '+' + a[0]*a[1]/100
-        } else if(this.operation.includes('-')){
+            this.operation = a[0] + '+' + a[0] * a[1] / 100
+        } else if (this.operation.includes('-')) {
             var a = this.operation.split('-')
-            this.operation = a[0] + '-' + a[0]*a[1]/100
+            this.operation = a[0] + '-' + a[0] * a[1] / 100
         }
-             
+
         this.operation = eval(this.operation)
-        
+
         this.solved = true;
         this.pointUsed = false;
         document.querySelector("body > form > input:nth-child(1)").value = this.operation;
     }
 
-    sign(){
+    sign() {
         this.pantalla = eval(this.pantalla + '*-1')
         document.querySelector("body > form > input:nth-child(1)").value = this.pantalla
     }
@@ -126,7 +142,7 @@ class CalculadoraBasica{
         this.pointUsed = false;
     }
 
-    borrarTodo(){
+    borrarTodo() {
         this.borrar();
         this.operation = ''
         this.memory = "";
