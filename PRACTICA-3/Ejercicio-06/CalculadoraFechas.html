@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="author" content="Miguel Menéndez Rodríguez">
+    <title>Calculadora Fechas</title>
+    <link rel="stylesheet" type="text/css" href="CalculadoraFechas.css">
+</head>
+
+<body>
+    <script src="CalculadoraFechas.js"></script>
+    <h1>Calculadora Fechas</h1>
+    <p>Calculadora de Fechas</p>
+    <form>
+        <textarea id="pila" title="pila" disabled></textarea>
+        <textarea id="pantalla" title="pantalla" disabled></textarea>
+        
+        <input type="button" value="5" onclick="c.digitos('5')" />
+        <input type="button" value="6" onclick="c.digitos('6')" />
+        <input type="button" value="7" onclick="c.digitos('7')" />
+        <input type="button" value="8" onclick="c.digitos('8')" />
+        <input type="button" value="9" onclick="c.digitos('9')" />
+        <input type="button" value="Guión" onclick="c.signo()" />
+        <input type="button" value="Intro" onclick="c.enter()" />
+        
+        <input type="button" value="0" onclick="c.digitos('0')" />
+        <input type="button" value="1" onclick="c.digitos('1')" />
+        <input type="button" value="2" onclick="c.digitos('2')" />
+        <input type="button" value="3" onclick="c.digitos('3')" />
+        <input type="button" value="4" onclick="c.digitos('4')" />
+        <input type="button" value="+" onclick="c.suma()" />
+        <input type="submit" value="Borrar" onclick="c.borrar()" />     
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,63 @@
+/*002*/
+body > form {
+    margin: 0.125em;
+    padding: 1em;
+    background-color: rgb(48, 48, 48);
+    color: black;
+    border-radius: 0.625em;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 0.5em;
+    column-gap: 0.5em;
+    height: 40em;
+    max-width: 30em;
+    min-width: 15em;
+}
+
+/*001*/
+input {
+    font-size: 1.563em;
+    background-color: rgb(22, 219, 65);
+    color: black;
+}
+
+/*001*/
+body > form > textarea {
+    text-align: right;
+    resize: none;
+    margin-bottom: 1em;
+    background-color: rgb(218, 213, 148);
+    min-height: 5em;
+    max-height: 5em;
+    min-width: 34em;
+    max-width: 34em;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    color: black;
+}
+
+body > form > input:nth-child(5),
+body > form > input:nth-child(3),
+body > form > input:nth-child(4),
+body > form > input:nth-child(8),
+body > form > input:nth-child(9),
+body > form > input:nth-child(7){
+    background-color: rgb(224, 75, 75);
+}
+
+body > form > input:nth-child(6),
+body > form > input:nth-child(10){
+    background-color: gold;
+}
+
+
+body > form > input:nth-child(14),
+body > form > input:nth-child(18),
+body > form > input:nth-child(22),
+body > form > input:nth-child(26){
+    background-color: rgb(0, 110, 255);
+}
+body > form > input:nth-child(27){
+    grid-column-start: 1;
+    grid-column-end: 5;
+}

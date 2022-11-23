@@ -1,129 +1,151 @@
 "use strict";
-class CalculadoraBasica{
-    constructor(){
+class CalculadoraMilan {
+    constructor() {
         this.operation = ""
         this.memory = ""
         this.pointUsed = false
+        this.pantalla = ""
+        document.addEventListener("keydown", (event) => this.manejarEvento(event));
+    }
 
-        document.addEventListener("keydown", (event) => {
-            const keyName = event.key.replace(/[^\d.\-\/\*\+]/g, '');
-            if (this.solved && !["*", "/", "-", "+"].some(el => keyName.includes(el))) {
-                document.querySelector("body > form > input:nth-child(1)").value = "";
-                this.solved = false;
-                this.operation = "";
-                
-            }
-            if (["*", "/", "-", "+"].some(el => keyName.includes(el))) {
-                this.solved = false;
-            }
-            document.querySelector("body > form > input:nth-child(1)").value += keyName;
-            this.operation += keyName
-            if (event.code.match("Enter")) {
-                this.igual();
-                this.solved = true;
-            }
-        });
+    manejarEvento(event) {
+        switch (event.key) {
+            case '+':
+                this.suma()
+                break;
+            case '-':
+                this.resta()
+                break;
+            case '*':
+                this.mult()
+                break;
+            case '/':
+                this.div()
+                break;
+            case '0':
+            case '1':
+            case '2':
+            case '3':
+            case '4':
+            case '5':
+            case '6':
+            case '7':
+            case '8':
+            case '9':
+                this.digitos(keyName)
+                break;
+        }
+        if (event.code.match("Enter")) {
+            this.igual();
+        }
     }
 
     digitos(arg) {
         if (this.solved) {
-            document.querySelector("body > form > input:nth-child(1)").value = "";
             this.solved = false;
             this.operation = "";
-            this.shown = ""
+            this.pantalla = ""
         }
-        this.operation += arg;
-        document.querySelector("body > form > input:nth-child(1)").value = this.operation;
+        if (this.pantalla.length <= 7 || (this.pantalla.length <= 8 && this.pantalla.includes('.'))) {
+            this.pantalla += arg;
+        }
+
+        document.querySelector("body > form > input:nth-child(1)").value = this.pantalla;
     }
 
     punto() {
-        if(!this.pointUsed){
-            this.operation += ".";
-            document.querySelector("body > form > input:nth-child(1)").value = this.operation;
+        if (!this.pointUsed) {
+            this.pantalla += '.'
+            document.querySelector("body > form > input:nth-child(1)").value = this.pantalla;
             this.pointUsed = true
         }
     }
 
     suma() {
+        this.operation = Number(eval(this.operation + this.pantalla));
         this.operation += "+";
+        this.pantalla = ''
         this.solved = false;
         this.pointUsed = false;
-        document.querySelector("body > form > input:nth-child(1)").value = this.operation;
     }
 
     resta() {
+        this.operation = Number(eval(this.operation + this.pantalla));
         this.operation += "-";
+        this.pantalla = ''
         this.solved = false;
         this.pointUsed = false;
-        document.querySelector("body > form > input:nth-child(1)").value = this.operation;
     }
 
     mult() {
+        this.operation = Number(eval(this.operation + this.pantalla));
         this.operation += "*";
+        this.pantalla = ''
         this.solved = false;
         this.pointUsed = false;
-        document.querySelector("body > form > input:nth-child(1)").value = this.operation;
     }
 
     div() {
+        this.operation = Number(eval(this.operation + this.pantalla));
         this.operation += "/";
+        this.pantalla = ''
         this.solved = false;
         this.pointUsed = false;
-        document.querySelector("body > form > input:nth-child(1)").value = this.operation;
     }
 
     igual() {
-        this.operation = Number(eval(this.operation));
-        document.querySelector("body > form > input:nth-child(1)").value = this.operation;
+        this.operation = Number(eval(this.operation + this.pantalla));
+        this.pantalla = this.operation
+        document.querySelector("body > form > input:nth-child(1)").value = this.pantalla;
+        this.operation = ''
         this.solved = true;
         this.pointUsed = false;
     }
 
-    root(){
-        this.operation = Math.sqrt(Number(document.querySelector("body > form > input:nth-child(1)").value))
-        this.solved = true;
-        this.pointUsed = false;
-        document.querySelector("body > form > input:nth-child(1)").value = this.operation
-    }
-
-    percentage(){
-        if(this.operation.includes('/') ){
-            this.operation += '*100'
-        } else if(this.operation.includes('*')){
-            this.operation += '/100'
-        } else if(this.operation.includes('+')){
-            var a = this.operation.split('+')
-            this.operation = a[0] + '+' + a[0]*a[1]/100
-        } else if(this.operation.includes('-')){
-            var a = this.operation.split('-')
-            this.operation = a[0] + '-' + a[0]*a[1]/100
-        }
-             
-        this.operation = eval(this.operation)
-        
-        this.solved = true;
-        this.pointUsed = false;
-        document.querySelector("body > form > input:nth-child(1)").value = this.operation;
-    }
-
-    sign(){
-        this.operation = eval(this.operation);
-        this.operation = eval(this.operation + '*-1')
+    root() {
+        this.pantalla = Math.sqrt(Number(this.pantalla))
         this.solved = false;
-        if(!this.pointUsed)
-            this.pointUsed = false;
-        document.querySelector("body > form > input:nth-child(1)").value = this.operation
+        this.pointUsed = false;
+        document.querySelector("body > form > input:nth-child(1)").value = this.pantalla
+    }
+
+    percentage() {
+        if (this.operation.includes('/')) {
+            this.operation += this.pantalla + '*100'
+        } else if (this.operation.includes('*')) {
+            this.operation += this.pantalla + '/100'
+        } else if (this.operation.includes('+')) {
+            var a = this.operation.split('+')
+            this.operation = a[0] + '+' + a[0] * this.pantalla / 100
+        } else if (this.operation.includes('-')) {
+            var a = this.operation.split('-')
+            this.operation = a[0] + '-' + a[0] * this.pantalla / 100
+        } else{
+            this.operation =  this.pantalla + '/100'
+        }
+
+        this.operation = eval(this.operation)
+        console.log(this.operation)
+        this.solved = true;
+        this.pointUsed = false;
+        document.querySelector("body > form > input:nth-child(1)").value = this.operation;
+    }
+
+    sign() {
+        this.pantalla = eval(this.pantalla + '*-1')
+        document.querySelector("body > form > input:nth-child(1)").value = this.pantalla
     }
 
     borrar() {
+        this.pantalla = ''
         document.querySelector("body > form > input:nth-child(1)").value = "";
-        this.operation = "";
         this.solved = false;
         this.pointUsed = false;
     }
 
-    borrarTodo(){
+    borrarTodo() {
         this.borrar();
+        this.operation = ''
         this.memory = "";
     }
 
@@ -157,17 +179,109 @@ class CalculadoraBasica{
     }
 
 }
-
-class CalculadoraCientifica extends CalculadoraBasica{
+class CalculadoraCientifica extends CalculadoraMilan{
     constructor(){
         super()
     }
 
-    ln(){
-        this.operation = Math.log(document.querySelector("body > form > input:nth-child(1)").value)
-        this.solved = true;
+    manejarEvento(event) {
+        switch (event.key) {
+            case '+':
+                this.suma()
+                break;
+            case '-':
+                this.resta()
+                break;
+            case '*':
+                this.mult()
+                break;
+            case '/':
+                this.div()
+                break;
+            case '.':
+                this.punto();
+                break;
+            case '0':
+            case '1':
+            case '2':
+            case '3':
+            case '4':
+            case '5':
+            case '6':
+            case '7':
+            case '8':
+            case '9':
+                this.digitos(event.key)
+                break;
+            case '(':
+                this.parIzq()
+                break;
+            case ')':
+                this.parDer()
+                break;
+            case '%':
+                this.mod();
+                break;
+            case '!':
+                this.fact();
+                break;
+            case 'Enter':
+                this.igual();
+                break;
+            case 'Backspace':
+                this.retroceder()
+                break
+            default:
+                console.log(event.key)
+        }
+    
+    }
+
+    digitos(arg) {
+        if (this.solved) {
+            this.solved = false;
+            this.operation = "";
+            this.pantalla = ""
+        }
+        
+        this.operation += arg;
+        document.querySelector("body > form > input:nth-child(1)").value = this.operation;
+    }
+
+    punto() {
+        if (!this.pointUsed) {
+            this.operation += '.'
+            document.querySelector("body > form > input:nth-child(1)").value = this.operation;
+            this.pointUsed = true
+        }
+    }
+
+    suma() {
+        this.operation += "+";
+        document.querySelector("body > form > input:nth-child(1)").value = this.operation;
+        this.solved = false;
         this.pointUsed = false;
-        document.querySelector("body > form > input:nth-child(1)").value = this.operation
+    }
+
+    resta() {
+        this.operation += "-";
+        document.querySelector("body > form > input:nth-child(1)").value = this.operation;
+        this.solved = false;
+        this.pointUsed = false;
+    }
+
+    mult() {
+        this.operation += "*";
+        document.querySelector("body > form > input:nth-child(1)").value = this.operation;
+        this.solved = false;
+        this.pointUsed = false;
+    }
+
+    div() {
+        this.operation += "/";
+        document.querySelector("body > form > input:nth-child(1)").value = this.operation;
+        this.solved = false;
+        this.pointUsed = false;
     }
 
     log(){
@@ -184,46 +298,23 @@ class CalculadoraCientifica extends CalculadoraBasica{
         document.querySelector("body > form > input:nth-child(1)").value = this.operation
     }
 
-    e(){
-        this.operation = Math.E
-        this.solved = true;
-        this.pointUsed = false;
-        document.querySelector("body > form > input:nth-child(1)").value = this.operation
-    }
-
-    abs(){
-        this.operation = Math.abs(document.querySelector("body > form > input:nth-child(1)").value)
-        this.solved = true;
-        this.pointUsed = false;
-        document.querySelector("body > form > input:nth-child(1)").value = this.operation
-    }
-
-    fact(){
-        this.operation = Math.PI
-        this.solved = true;
-        this.pointUsed = false;
-        document.querySelector("body > form > input:nth-child(1)").value = this.operation
+    retroceder(){
+        this.operation = this.operation.slice(0,this.operation.length-1)
+        document.querySelector("body > form > input:nth-child(1)").value = this.operation;
     }
 
     pow10(){
-        this.operation = Math.pow(10,document.querySelector("body > form > input:nth-child(1)").value)
-        this.solved = true;
+        this.solved = false;
         this.pointUsed = false;
-        document.querySelector("body > form > input:nth-child(1)").value = this.operation
+        this.operation += "**10";
+        document.querySelector("body > form > input:nth-child(1)").value = this.operation;
     }
 
     x2(){
-        this.operation = Math.pow(document.querySelector("body > form > input:nth-child(1)").value,2)
-        this.solved = true;
+        this.solved = false;
         this.pointUsed = false;
-        document.querySelector("body > form > input:nth-child(1)").value = this.operation
-    }
-
-    x3(){
-        this.operation = Math.pow(document.querySelector("body > form > input:nth-child(1)").value,3)
-        this.solved = true;
-        this.pointUsed = false;
-        document.querySelector("body > form > input:nth-child(1)").value = this.operation
+        this.operation += "**2";
+        document.querySelector("body > form > input:nth-child(1)").value = this.operation;
     }
 
     dosX(){
@@ -240,27 +331,8 @@ class CalculadoraCientifica extends CalculadoraBasica{
         document.querySelector("body > form > input:nth-child(1)").value = this.operation
     }
 
-    ex(){
-        this.operation = Math.exp(Number(document.querySelector("body > form > input:nth-child(1)").value))
-        this.solved = true;
-        this.pointUsed = false;
-        document.querySelector("body > form > input:nth-child(1)").value = this.operation
-        
-    }
-
-
-    v3(){
-        this.operation = Math.cbrt(Number(document.querySelector("body > form > input:nth-child(1)").value))
-        this.solved = true;
-        this.pointUsed = false;
-        document.querySelector("body > form > input:nth-child(1)").value = this.operation
-    }
-
-    inv(){
-        this.operation = "1/" + document.querySelector("body > form > input:nth-child(1)").value
-        this.solved = true
-        this.pointUsed = false
-        document.querySelector("body > form > input:nth-child(1)").value = eval(this.operation)
+    flecha(){
+        console.log('implementar')
     }
 
     mod(){

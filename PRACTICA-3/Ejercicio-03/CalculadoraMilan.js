@@ -1,5 +1,5 @@
 "use strict";
-class CalculadoraBasica {
+class CalculadoraMilan {
     constructor() {
         this.operation = ""
         this.memory = ""
@@ -9,8 +9,7 @@ class CalculadoraBasica {
     }
 
     manejarEvento(event) {
-        const keyName = event.key.replace(/[^\d.\-\/\*\+]/g, '');
-        switch (keyName) {
+        switch (event.key) {
             case '+':
                 this.suma()
                 break;
@@ -112,19 +111,21 @@ class CalculadoraBasica {
 
     percentage() {
         if (this.operation.includes('/')) {
-            this.operation += '*100'
+            this.operation += this.pantalla + '*100'
         } else if (this.operation.includes('*')) {
-            this.operation += '/100'
+            this.operation += this.pantalla + '/100'
         } else if (this.operation.includes('+')) {
             var a = this.operation.split('+')
-            this.operation = a[0] + '+' + a[0] * a[1] / 100
+            this.operation = a[0] + '+' + a[0] * this.pantalla / 100
         } else if (this.operation.includes('-')) {
             var a = this.operation.split('-')
-            this.operation = a[0] + '-' + a[0] * a[1] / 100
+            this.operation = a[0] + '-' + a[0] * this.pantalla / 100
+        } else{
+            this.operation =  this.pantalla + '/100'
         }
 
         this.operation = eval(this.operation)
-
+        console.log(this.operation)
         this.solved = true;
         this.pointUsed = false;
         document.querySelector("body > form > input:nth-child(1)").value = this.operation;
@@ -179,4 +180,4 @@ class CalculadoraBasica {
 
 }
 
-var c = new CalculadoraBasica()
+var c = new CalculadoraMilan()

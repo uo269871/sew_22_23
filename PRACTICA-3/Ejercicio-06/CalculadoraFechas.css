@@ -1,0 +1,38 @@
+/*002*/
+body > form {
+    margin: 0.125em;
+    padding: 1em;
+    background-color: rgb(48, 48, 48);
+    color: black;
+    border-radius: 0.625em;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    row-gap: 0.5em;
+    column-gap: 0.5em;
+    height: 40em;
+    max-width: 80em;
+    min-width: 15em;
+}
+
+/*001*/
+input {
+    font-size: 1.563em;
+    background-color: rgb(22, 219, 65);
+    color: black;
+}
+
+/*001*/
+body > form > textarea {
+    text-align: right;
+    resize: none;
+    margin-bottom: 1em;
+    background-color: rgb(218, 213, 148);
+    min-height: 10em;
+    max-height: 10em;
+    min-width: 80em;
+    max-width: 80em;
+    grid-column-start: 1;
+    grid-column-end: 8;
+    color: black;
+}
+
