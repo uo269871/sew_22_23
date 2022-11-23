@@ -36,6 +36,7 @@ body > form > textarea {
     color: black;
 }
 
+/*013*/
 body > form > input:nth-child(5),
 body > form > input:nth-child(3),
 body > form > input:nth-child(4),
@@ -45,18 +46,21 @@ body > form > input:nth-child(7){
     background-color: rgb(224, 75, 75);
 }
 
+/*013*/
 body > form > input:nth-child(6),
 body > form > input:nth-child(10){
     background-color: gold;
 }
 
-
+/*013*/
 body > form > input:nth-child(14),
 body > form > input:nth-child(18),
 body > form > input:nth-child(22),
 body > form > input:nth-child(26){
     background-color: rgb(0, 110, 255);
 }
+
+/*013*/
 body > form > input:nth-child(27){
     grid-column-start: 1;
     grid-column-end: 5;
