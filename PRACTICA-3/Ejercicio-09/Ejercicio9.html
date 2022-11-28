@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="author" content="Miguel Menéndez Rodríguez">
+    <title>Tiempo - XML</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="Ejercicio9.js"></script>
+    <link rel="stylesheet" href="Ejercicio9.css" />
+</head>
+
+<body>
+    <header>
+        <h1>Datos meteorológicos</h1>
+    </header>
+    <article>
+        <section>
+            <h2>Oviedo</h2>
+            <p>Tiempo en Oviedo</p>
+            <button id="oviedo" onclick="new Meteo('Oviedo').ver()">Ver Tiempo</button>
+        </section>
+        
+        <section>
+            <h2>Villablino</h2>
+            <p>Tiempo en Villablino</p>
+            <button id="villablino" onclick="new Meteo('Villablino').ver()">Ver Tiempo</button>
+        </section>
+
+        <section>
+            <h2>Cangas de Onís</h2>
+            <p>Tiempo en Cangas de Onís</p>
+            <button id="cangues" onclick="new Meteo('Cangas de Onís').ver()">Ver Tiempo</button>
+        </section>
+
+        <section>
+            <h2>Caboalles de Abajo</h2>
+            <p>Tiempo en Caboalles de Abajo</p>
+            <button id="caboalles" onclick="new Meteo('Caboalles de Abajo').ver()">Ver Tiempo</button>
+        </section>
+
+        <section>
+           <h2>Helgueras</h2>
+           <p>Tiempo en Helgueras</p>
+           <button id="helgueras" onclick="new Meteo('Helgueras').ver()">Ver Tiempo</button>
+        </section>
+    </article>
+
+</body>
