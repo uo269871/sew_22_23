@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width">
+    <meta name="author" content="Miguel Menendez Rodriguez">
+    <title>Geolocalización</title>
+    <link href="GeoLocalizacion.css" rel="stylesheet" />
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v2.6.0/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v2.6.0/mapbox-gl.css' rel='stylesheet' />
+    <script src="GeoLocalizacion.js"></script>
+</head>
+
+<body>
+    <h1>Mapa estático</h1>
+    <section>
+        <h2>Muestra la imagen de un mapa estático con los alrededores de la posición del usuario</h2>
+        <input type="button" value="Obtener mapa estático" onClick="g.getMap();" />
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width">
+    <meta name="author" content="Miguel Menendez Rodriguez">
+    <title>Geolocalización</title>
+    <link href="GeoLocalizacion.css" rel="stylesheet" />
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v2.6.0/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v2.6.0/mapbox-gl.css' rel='stylesheet' />
+    <script src="GeoLocalizacion.js"></script>
+</head>
+
+<body>
+    <h1>Mapa dinámico</h1>
+    <main>
+        <input type="button" value="Obtener mapa" onClick="g.getMap()" />
+        <section id="mapaDinamico">
+            <h2>Mapa dinámico</h2>
+        </section>
+    </main>
+</body>
+
+</html>
