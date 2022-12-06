@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width">
+    <meta name="author" content="Miguel Menéndez Rodríguez">
+    <link rel="stylesheet" type="text/css" href="MapaGeoJSON.css" />
+    <title>Ejercicio GeoJSON</title>
+    <script src="MapaGeoJSON.js"></script>
+    <script src='https://api.mapbox.com/mapbox.js/v3.3.1/mapbox.js'></script>
+    <link href='https://api.mapbox.com/mapbox.js/v3.3.1/mapbox.css' rel='stylesheet' />
+    <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.2.0/leaflet-omnivore.min.js'></script>
+</head>
+
+<body>
+    <h1>Ejercicio GeoJSON</h1>
+    <label for="file">Seleccione un archivo GeoJSON: </label>
+    <input type="file" id="file" onchange="m.initMap(this.files);">
+    <section id="map"><h2>Mapa dinamico del GeoJSON</h2></section>
+</body>
+
+</html>

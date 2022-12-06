@@ -1,0 +1,21 @@
+/*Especifidad 100*/
+section { 
+    height: 40em;
+    width: 50em;
+}
+
+/*Especificidad: 001*/
+body {
+    font-family: Tahoma, sans-serif;
+    color: #0a0a0a;
+    background-color: #fff;
+    }
+  /*Especificidad: 001*/
+  h1 {
+    color: #fff;    
+    background-color:black; 
+    text-transform: uppercase;
+    padding: 2em; 
+    text-align: center;     
+    }
+  

@@ -1,0 +1,33 @@
+{
+"type": "FeatureCollection",
+"name": "Red social",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Name": "Nacimiento de Miguel Menendez Rodriguez", "description": "Miguel Menendez Rodriguez nació en Oviedo el 2000-08-29" }, "geometry": { "type": "Point", "coordinates": [ -5.8514295, 43.354933 ] } },
+{ "type": "Feature", "properties": { "Name": "Residencia de Miguel Menendez Rodriguez", "description": "Miguel Menendez Rodriguez vive en Caboalles de Abajo" }, "geometry": { "type": "Point", "coordinates": [ -6.3755552, 42.9526827 ] } },
+{ "type": "Feature", "properties": { "Name": "Nacimiento de Ana Maria Palomero Pescador", "description": "Ana Maria Palomero Pescador nació en Caboalles de Abajo el 1917-12-03" }, "geometry": { "type": "Point", "coordinates": [ -6.374352, 42.9521477 ] } },
+{ "type": "Feature", "properties": { "Name": "Residencia de Ana Maria Palomero Pescador", "description": "Ana Maria Palomero Pescador vive en Caboalles de Abajo" }, "geometry": { "type": "Point", "coordinates": [ -6.3755552, 42.9526827 ] } },
+{ "type": "Feature", "properties": { "Name": "Nacimiento de Javier Menendez Jimenez", "description": "Javier Menendez Jimenez nació en Helgueras el 1916-04-17" }, "geometry": { "type": "Point", "coordinates": [ -5.1206803, 43.3563116 ] } },
+{ "type": "Feature", "properties": { "Name": "Residencia de Javier Menendez Jimenez", "description": "Javier Menendez Jimenez vive en Cangas de Onís" }, "geometry": { "type": "Point", "coordinates": [ -5.1287966, 43.3507281 ] } },
+{ "type": "Feature", "properties": { "Name": "Nacimiento de Lucia Gutierrez Guanes", "description": "Lucia Gutierrez Guanes nació en Celango el 1919-12-28" }, "geometry": { "type": "Point", "coordinates": [ -5.112205, 43.3567593 ] } },
+{ "type": "Feature", "properties": { "Name": "Residencia de Lucia Gutierrez Guanes", "description": "Lucia Gutierrez Guanes vive en Cangas de Onís" }, "geometry": { "type": "Point", "coordinates": [ -5.1287966, 43.3507281 ] } },
+{ "type": "Feature", "properties": { "Name": "Nacimiento de Alejandro Fernandez Varela", "description": "Alejandro Fernandez Varela nació en San Juan de Parres el 1918-06-20" }, "geometry": { "type": "Point", "coordinates": [ -5.1478346, 43.3546285 ] } },
+{ "type": "Feature", "properties": { "Name": "Residencia de Alejandro Fernandez Varela", "description": "Alejandro Fernandez Varela vive en San Juan de Parres" }, "geometry": { "type": "Point", "coordinates": [ -5.1478346, 43.3546285 ] } },
+{ "type": "Feature", "properties": { "Name": "Nacimiento de Luis Menendez Fernandez", "description": "Luis Menendez Fernandez nació en Oviedo el 1970-12-11" }, "geometry": { "type": "Point", "coordinates": [ -5.8633631, 43.363433 ] } },
+{ "type": "Feature", "properties": { "Name": "Residencia de Luis Menendez Fernandez", "description": "Luis Menendez Fernandez vive en Caboalles de Abajo" }, "geometry": { "type": "Point", "coordinates": [ -6.3755552, 42.9526827 ] } },
+{ "type": "Feature", "properties": { "Name": "Nacimiento de Manuel Menendez Gutierrez", "description": "Manuel Menendez Gutierrez nació en Cangas de Onís el 1941-07-29" }, "geometry": { "type": "Point", "coordinates": [ -5.1287966, 43.3507281 ] } },
+{ "type": "Feature", "properties": { "Name": "Residencia de Manuel Menendez Gutierrez", "description": "Manuel Menendez Gutierrez vive en Caboalles de Abajo" }, "geometry": { "type": "Point", "coordinates": [ -6.3755552, 42.9526827 ] } },
+{ "type": "Feature", "properties": { "Name": "Nacimiento de Maria Concepcion Fernanez Garcia", "description": "Maria Concepcion Fernanez Garcia nació en San Juan de Parres el 1943-05-13" }, "geometry": { "type": "Point", "coordinates": [ -5.1478346, 43.3546285 ] } },
+{ "type": "Feature", "properties": { "Name": "Residencia de Maria Concepcion Fernanez Garcia", "description": "Maria Concepcion Fernanez Garcia vive en Caboalles de Abajo" }, "geometry": { "type": "Point", "coordinates": [ -6.3755552, 42.9526827 ] } },
+{ "type": "Feature", "properties": { "Name": "Nacimiento de Laura Garcia Delgado", "description": "Laura Garcia Delgado nació en San Juan de Parres el 1918-01-14" }, "geometry": { "type": "Point", "coordinates": [ -5.1482913, 43.3539544 ] } },
+{ "type": "Feature", "properties": { "Name": "Residencia de Laura Garcia Delgado", "description": "Laura Garcia Delgado vive en San Juan de Parres" }, "geometry": { "type": "Point", "coordinates": [ -5.1478346, 43.3546285 ] } },
+{ "type": "Feature", "properties": { "Name": "Nacimiento de Ana Rodriguez Garcia", "description": "Ana Rodriguez Garcia nació en Villablino el 1972-11-21" }, "geometry": { "type": "Point", "coordinates": [ -6.3295471, 42.9449357 ] } },
+{ "type": "Feature", "properties": { "Name": "Residencia de Ana Rodriguez Garcia", "description": "Ana Rodriguez Garcia vive en Caboalles de Abajo" }, "geometry": { "type": "Point", "coordinates": [ -6.3755552, 42.9526827 ] } },
+{ "type": "Feature", "properties": { "Name": "Nacimiento de Maria Jose Garcia Palomero", "description": "Maria Jose Garcia Palomero nació en Caboalles de Abajo el 1920-02-14" }, "geometry": { "type": "Point", "coordinates": [ -6.374352, 42.9521477 ] } },
+{ "type": "Feature", "properties": { "Name": "Residencia de Maria Jose Garcia Palomero", "description": "Maria Jose Garcia Palomero vive en Caboalles de Abajo" }, "geometry": { "type": "Point", "coordinates": [ -6.3755552, 42.9526827 ] } },
+{ "type": "Feature", "properties": { "Name": "Nacimiento de Jose Maria Garcia Marrero", "description": "Jose Maria Garcia Marrero nació en Caboalles de Abajo el 1920-02-14" }, "geometry": { "type": "Point", "coordinates": [ -6.3755552, 42.9526827 ] } },
+{ "type": "Feature", "properties": { "Name": "Residencia de Jose Maria Garcia Marrero", "description": "Jose Maria Garcia Marrero vive en Caboalles de Abajo" }, "geometry": { "type": "Point", "coordinates": [ -6.3755552, 42.9526827 ] } },
+{ "type": "Feature", "properties": { "Name": "Nacimiento de Munia Valle Dominguez", "description": "Munia Valle Dominguez nació en Llamas de Laciana el 1920-10-25" }, "geometry": { "type": "Point", "coordinates": [ -6.3223696, 42.9285463 ] } },
+{ "type": "Feature", "properties": { "Name": "Residencia de Munia Valle Dominguez", "description": "Munia Valle Dominguez vive en Caboalles de Abajo" }, "geometry": { "type": "Point", "coordinates": [ -6.3755552, 42.9526827 ] } }
+]
+}
