@@ -1,0 +1,264 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Oil Service Documentation",
+    "description": "# Introduction\nWelcome to the <a target=\"_blank\" href=\"http://www.oilpriceservice.com/\">OilPriceService</a>.\n\nOilPriceService helps you access the latest Brent and Crude oil price data with our JSON Rest Oil Price API.",
+    "contact": {},
+    "version": "1.0",
+    "x-logo": {
+      "url": "./docs/docs_logo.png",
+      "altText": "Oil Price Logo"
+    }
+  },
+  "servers": [
+    {
+      "url": "http://api.oilpriceservice.com/api/v1/price",
+      "variables": {}
+    }
+  ],
+  "paths": {
+    "/latest": {
+      "get": {
+        "tags": [
+          "price"
+        ],
+        "summary": "latest",
+        "operationId": "latest",
+        "description": "Returns latest price of oil.",
+        "parameters": [
+          {
+            "name": "Authorization",
+            "in": "header",
+            "description": "",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "string",
+              "example": "Token {{your token}}"
+            }
+          },
+          {
+            "name": "code",
+            "in": "query",
+            "description": "This is <b>optional</b>. If it is sent, use <b>CRUDE</b> or <b>BRENT</b>",
+            "required": false,
+            "style": "simple",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "403": {
+            "description": "Forbidden",
+            "headers": {},
+            "content": {
+              "application/json; charset=utf-8": {
+                "schema": {
+                  "$ref": "#/components/schemas/QuotaLimit1"
+                },
+                "example": {
+                  "status": "fail",
+                  "error": {
+                    "code": 102,
+                    "message": "Account has exceeded the monthly quota."
+                  }
+                }
+              }
+            }
+          },
+          "200": {
+            "description": "OK",
+            "headers": {},
+            "content": {
+              "application/json; charset=utf-8": {
+                "schema": {
+                  "$ref": "#/components/schemas/SuccessfulCRUDE"
+                },
+                "example": {
+                  "data": {
+                    "code": "CRUDE",
+                    "currency": "USD",
+                    "formattedPrice": "$63.19",
+                    "lastUpdateTime": "2021-02-24T19:36:24Z",
+                    "price": 63.19
+                  },
+                  "status": "success"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized",
+            "headers": {
+              "Connection": {
+                "content": {
+                  "text/plain": {
+                    "schema": {
+                      "type": "string"
+                    },
+                    "example": "keep-alive"
+                  }
+                }
+              }
+            },
+            "content": {
+              "application/json; charset=utf-8": {
+                "schema": {
+                  "$ref": "#/components/schemas/NoToken1"
+                },
+                "example": {
+                  "status": "fail",
+                  "error": {
+                    "code": 101,
+                    "message": "Invalid token"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "deprecated": false,
+        "security": []
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Error": {
+        "title": "Error",
+        "required": [
+          "code",
+          "message"
+        ],
+        "type": "object",
+        "properties": {
+          "code": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "message": {
+            "type": "string"
+          }
+        },
+        "example": {
+          "code": 102,
+          "message": "Account has exceeded the monthly quota."
+        }
+      },
+      "QuotaLimit1": {
+        "title": "QuotaLimit1",
+        "required": [
+          "status",
+          "error"
+        ],
+        "type": "object",
+        "properties": {
+          "status": {
+            "type": "string"
+          },
+          "error": {
+            "$ref": "#/components/schemas/Error"
+          }
+        },
+        "example": {
+          "status": "fail",
+          "error": {
+            "code": 102,
+            "message": "Account has exceeded the monthly quota."
+          }
+        }
+      },
+      "SuccessfulCRUDE": {
+        "title": "SuccessfulCRUDE",
+        "required": [
+          "data",
+          "status"
+        ],
+        "type": "object",
+        "properties": {
+          "data": {
+            "$ref": "#/components/schemas/Data"
+          },
+          "status": {
+            "type": "string"
+          }
+        },
+        "example": {
+          "data": {
+            "code": "CRUDE",
+            "currency": "USD",
+            "formattedPrice": "$63.19",
+            "lastUpdateTime": "2021-02-24T19:36:24Z",
+            "price": 63.19
+          },
+          "status": "success"
+        }
+      },
+      "Data": {
+        "title": "Data",
+        "required": [
+          "code",
+          "currency",
+          "formattedPrice",
+          "lastUpdateTime",
+          "price"
+        ],
+        "type": "object",
+        "properties": {
+          "code": {
+            "type": "string"
+          },
+          "currency": {
+            "type": "string"
+          },
+          "formattedPrice": {
+            "type": "string"
+          },
+          "lastUpdateTime": {
+            "type": "string"
+          },
+          "price": {
+            "type": "number"
+          }
+        },
+        "example": {
+          "code": "CRUDE",
+          "currency": "USD",
+          "formattedPrice": "$63.19",
+          "lastUpdateTime": "2021-02-24T19:36:24Z",
+          "price": 63.19
+        }
+      },
+      "NoToken1": {
+        "title": "NoToken1",
+        "required": [
+          "status",
+          "error"
+        ],
+        "type": "object",
+        "properties": {
+          "status": {
+            "type": "string"
+          },
+          "error": {
+            "$ref": "#/components/schemas/Error"
+          }
+        },
+        "example": {
+          "status": "fail",
+          "error": {
+            "code": 101,
+            "message": "Invalid token"
+          }
+        }
+      }
+    }
+  },
+  "tags": [
+    {
+      "name": "price",
+      "description": "All price related data will be served under this division."
+    }
+  ]
+}

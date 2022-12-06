@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Varios archivos</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="author" content="Miguel Menéndez Rodríguez">
+    <link rel="stylesheet" type="text/css" href="Ejercicio12.css">
+    <script src="Ejercicio12.js"></script>
+</head>
+
+<body onload="r.validate();">
+    <h1>Lector de textos</h1>
+    <section>
+        <h2>API File: Selecionar varios archivos de la máquina cliente</h2>
+        <label for="subirArchivos">Seleccione un archivo de texto: </label>
+        <input id="subirArchivos" type="file" name="Archivos" onchange="r.tamFiles();" multiple>
+        <p>Archivos seleccionados: <span id="numero">0</span></p>
+        <p>Tamaño total: <span id="tamaño">0</span></p>
+        <span id="nombres"></span>
+
+
+        <label for="archivoTexto">Seleccione un archivo de texto: </label>
+
+        <input type="file" id="archivoTexto" onchange="r.readFile(this.files);">
+
+        <p id="nombreArchivo"></p>
+        <p id="tamañoArchivo"></p>
+        <p id="tipoArchivo"></p>
+        <p id="ultimaModificacion"></p>
+        <p id="contenidoArchivo"></p>
+        <pre id="areaTexto"></pre>
+        <p id="errorLectura"></p>
+    </section>
+
+</body>
+
+</html>
