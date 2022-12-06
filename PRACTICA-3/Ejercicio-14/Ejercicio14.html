@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width">
+    <meta name="author" content="Miguel Menéndez Rodríguez">
+    <link rel="stylesheet" type="text/css" href="Ejercicio14.css" />
+    <title>Ejercicio 14</title>
+    <script src="Ejercicio14.js"></script>
+</head>
+
+<body>
+    <h1>Ejercicio 14</h1>
+    <input type="button" value="Obtener datos de anterior archivo" onClick="f.showPreviousData();" />
+    <label for="file">Seleccione un archivo de audio: </label>
+    <input type="file" id="file" onchange="f.loadFile(this.files);">
+    <section id = "s">
+        <h2>Datos del audio</h2>
+    </section>
+    <audio id="audio_player"></audio>
+</body>
+
+</html>
