@@ -10,8 +10,8 @@ class BaseDatos
     public function __construct()
     {
         $this->servername = "localhost";
-        $this->username = "DBUSER2021";
-        $this->password = "DBPSWD2021";
+        $this->username = "DBUSER2022";
+        $this->password = "DBPSWD2022";
         $this->database = "baseDatos";
     }
 
