@@ -1,0 +1,139 @@
+/*002*/
+
+body>form {
+    margin: 0.125em;
+    padding: 1em;
+    background-color: rgb(48, 48, 48);
+    color: black;
+    border-radius: 0.625em;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 0.5em;
+    column-gap: 0.5em;
+    height: 40em;
+    max-width: 28em;
+    min-width: 15em;
+}
+
+
+/*001*/
+
+button {
+    font-size: 1.563em;
+    background-color: lightcyan;
+    color: black;
+}
+
+
+/*013*/
+
+body>form>textarea:nth-child(1) {
+    padding-bottom: 10em;
+    margin-bottom: 0em;
+}
+
+
+/*013*/
+
+body>form>textarea:nth-child(1),
+
+/*013*/
+
+body>form>textarea:nth-child(2) {
+    text-align: right;
+    background-color: rgb(218, 213, 148);
+    grid-column-start: 1;
+    grid-column-end: 5;
+    color: black;
+    resize: none;
+}
+
+
+/*013*/
+
+body>form>button:nth-child(10),
+
+/*013*/
+
+body>form>button:nth-child(11),
+
+/*013*/
+
+body>form>button:nth-child(12),
+
+/*013*/
+
+body>form>button:nth-child(14),
+
+/*013*/
+
+body>form>button:nth-child(15),
+
+/*013*/
+
+body>form>button:nth-child(16),
+
+/*013*/
+
+body>form>button:nth-child(18),
+
+/*013*/
+
+body>form>button:nth-child(19),
+
+/*013*/
+
+body>form>button:nth-child(20),
+
+/*013*/
+
+body>form>button:nth-child(22),
+
+/*013*/
+
+body>form>button:nth-child(23) {
+    background-color: lightblue;
+    color: black;
+}
+
+
+/*013*/
+
+body>form>button:nth-child(9) {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    background-color: rgb(109, 218, 255);
+    color: black;
+}
+
+
+/*013*/
+
+body>form>button:nth-child(8),
+
+/*013*/
+
+body>form>button:nth-child(24) {
+    background-color: rgb(255, 207, 94);
+    color: black;
+}
+
+
+/*013*/
+
+body>form>button:nth-child(13),
+
+/*013*/
+
+body>form>button:nth-child(17),
+
+/*013*/
+
+body>form>button:nth-child(21),
+
+/*013*/
+
+body>form>button:nth-child(25) {
+    background-color: rgb(255, 77, 77);
+    color: black;
+}
