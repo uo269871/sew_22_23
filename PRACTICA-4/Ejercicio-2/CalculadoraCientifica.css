@@ -2,27 +2,27 @@
 body > form {
     margin: 0.125em;
     padding: 1em;
-    background-color: rgb(48, 48, 48);
+    background-color: rgb(124, 124, 124);
     color: black;
     border-radius: 0.625em;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     row-gap: 0.5em;
     column-gap: 0.5em;
     height: 40em;
-    max-width: 30em;
+    max-width: 46em;
     min-width: 15em;
 }
 
 /*001*/
 input {
     font-size: 1.563em;
-    background-color: rgb(22, 219, 65);
+    background-color: rgb(170, 170, 170);
     color: black;
 }
 
-/*001*/
-body > form > textarea {
+/*013*/
+body > form > input:nth-child(1) {
     text-align: right;
     margin-bottom: 1em;
     background-color: rgb(218, 213, 148);
@@ -31,20 +31,112 @@ body > form > textarea {
     max-height: 5em;
     max-width: 29em;
     min-width: 29em;
+    grid-row: 1;
     grid-column-start: 1;
-    grid-column-end: 5;
+    grid-column-end: 6;
     color: black;
 }
 
-body > form > input:nth-child(5),
-body > form > input:nth-child(9),
-body > form > input:nth-child(13),
-body > form > input:nth-child(17){
-    background-color: rgb(224, 75, 75);
+/*013*/
+body > form > input:nth-child(2),
+body > form > input:nth-child(3),
+body > form > input:nth-child(4){
+    background-color: rgb(124, 124, 124);
+    grid-row-start: 2;
+    grid-row-end: 2;
 }
 
-body > form > input:nth-child(4),
-body > form > input:nth-child(2),
-body > form > input:nth-child(3){
-    background-color: gold;
+/*013*/
+body > form > input:nth-child(5),
+body > form > input:nth-child(6),
+body > form > input:nth-child(7),
+body > form > input:nth-child(8),
+body > form > input:nth-child(9){
+    background-color: rgb(124, 124, 124);
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+
+/*013*/
+body > form > input:nth-child(10),
+body > form > input:nth-child(11),
+body > form > input:nth-child(12),
+body > form > input:nth-child(13),
+body > form > input:nth-child(14){
+    grid-row-start: 4;
+    grid-row-end: 4;
+}
+
+/*013*/
+body > form > input:nth-child(15),
+body > form > input:nth-child(16),
+body > form > input:nth-child(17),
+body > form > input:nth-child(18),
+body > form > input:nth-child(19){
+    grid-row-start: 5;
+    grid-row-end: 5;
+}
+
+/*013*/
+body > form > input:nth-child(20),
+body > form > input:nth-child(21),
+body > form > input:nth-child(22),
+body > form > input:nth-child(23),
+body > form > input:nth-child(24){
+    grid-row-start: 6;
+    grid-row-end: 6;
+}
+
+/*013*/
+body > form > input:nth-child(25),
+body > form > input:nth-child(26),
+body > form > input:nth-child(27),
+body > form > input:nth-child(28),
+body > form > input:nth-child(29){
+    grid-row-start: 7;
+    grid-row-end: 7;
+}
+
+/*013*/
+body > form > input:nth-child(30),
+body > form > input:nth-child(31),
+body > form > input:nth-child(32),
+body > form > input:nth-child(33),
+body > form > input:nth-child(34){
+    grid-row-start: 8;
+    grid-row-end: 8;
+}
+
+/*013*/
+body > form > input:nth-child(35),
+body > form > input:nth-child(36),
+body > form > input:nth-child(37),
+body > form > input:nth-child(38),
+body > form > input:nth-child(39){
+    grid-row-start: 9;
+    grid-row-end: 9;
+}
+
+/*013*/
+body > form > input:nth-child(40),
+body > form > input:nth-child(41),
+body > form > input:nth-child(42),
+body > form > input:nth-child(43),
+body > form > input:nth-child(44){
+    grid-row-start: 10;
+    grid-row-end: 10;
+}
+
+/*013*/
+body > form > input:nth-child(26),
+body > form > input:nth-child(27),
+body > form > input:nth-child(28),
+body > form > input:nth-child(31),
+body > form > input:nth-child(32),
+body > form > input:nth-child(33),
+body > form > input:nth-child(36),
+body > form > input:nth-child(37),
+body > form > input:nth-child(38),
+body > form > input:nth-child(42){
+    background-color: rgb(221, 221, 221);
 }
