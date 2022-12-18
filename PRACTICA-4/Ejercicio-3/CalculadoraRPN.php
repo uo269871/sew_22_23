@@ -237,33 +237,43 @@ session_start();
 			$calculadora->deleteAll();
 	};
 
-	echo "<form action='CalculadoraRPN.php' method='post' name='Calculadora'>
-				<textarea title='pila' disabled>$calculadora->valoresPila</textarea>
-				<textarea title='pantalla' disabled>$calculadora->consola</textarea>
-				<button type='submit' name='sqrt'>&#x221A;</button>
-				<button type='submit' name='sin'>sin</button>
-				<button type='submit' name='cos'>cos</button>
-				<button type='submit' name='tan'>tan</button>
-				<button type='submit' name='log'>log</button>
-				<button type='submit' name='C'>AC</button>
-				<button type='submit' name='apilar'>Apilar</button>
-				<button type='submit' name='7'>7</button>
-				<button type='submit' name='8'>8</button>
-				<button type='submit' name='9'>9</button>
-				<button type='submit' name='/'>/</button>
-				<button type='submit' name='4'>4</button>
-				<button type='submit' name='5'>5</button>
-				<button type='submit' name='6'>6</button>
-				<button type='submit' name='*'>x</button>
-				<button type='submit' name='1'>1</button>
-				<button type='submit' name='2'>2</button>
-				<button type='submit' name='3'>3</button>
-				<button type='submit' name='-' value='-'>-</button>
-				<button type='submit' name='0'>0</button>
-				<button type='submit' name=','>.</button>
-				<button type='submit' name='retroceso'>&#x2190;</button>
-				<button type='submit' name='+'>+</button>
-			</form>";
+	echo "
+		<label for='pila'>Pila</label>
+		<label for='pantalla'>Pantalla</label>
+		<form action='CalculadoraRPN.php' method='post' name='Calculadora'>
+			<input type='text' id='pila' value='$calculadora->valoresPila' disabled/>
+			<input type='text' id='pantalla' value='$calculadora->consola' disabled/>
+			<input type='submit' name='asin' value='asin' />
+        	<input type='submit' name='acos' value='acos' />
+        	<input type='submit' name='atan' value='atan' />
+        	<input type='submit' name='sqrt' value='√' />
+
+        	<input type='submit' name='sin' value='sin' />
+        	<input type='submit' name='cos' value='cos' />
+        	<input type='submit' name='tan' value='tan' />
+        	<input type='submit' name='pow' value='x2' />
+
+        	<input type='submit' name='7' value='7' />
+        	<input type='submit' name='8' value='8' />
+        	<input type='submit' name='9' value='9' />
+        	<input type='submit' name='/' value='/' />
+
+        	<input type='submit' name='4' value='4' />
+        	<input type='submit' name='5' value='5' />
+        	<input type='submit' name='6' value='6' />
+        	<input type='submit' name='*' value='*' />
+
+        	<input type='submit' name='1' value='1' />
+        	<input type='submit' name='2' value='2' />
+        	<input type='submit' name='3' value='3' />
+        	<input type='submit' name='-' value='-' />
+
+        	<input type='submit' name='0' value='0' />
+        	<input type='submit' name='.' value='.' />
+        	<input type='submit' name='apilar' value='Intro' />
+        	<input type='submit' name='+' value='+' />   
+        	<input type='submit' name='C' value='Borrar'/>
+		</form>";
 	?>
 </body>
 

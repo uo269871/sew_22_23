@@ -1,6 +1,5 @@
 /*002*/
-
-body>form {
+body > form {
     margin: 0.125em;
     padding: 1em;
     background-color: rgb(48, 48, 48);
@@ -11,129 +10,59 @@ body>form {
     row-gap: 0.5em;
     column-gap: 0.5em;
     height: 40em;
-    max-width: 28em;
+    max-width: 46em;
     min-width: 15em;
 }
 
-
 /*001*/
-
-button {
+input {
     font-size: 1.563em;
-    background-color: lightcyan;
+    background-color: rgb(22, 219, 65);
     color: black;
 }
 
-
-/*013*/
-
-body>form>textarea:nth-child(1) {
-    padding-bottom: 10em;
-    margin-bottom: 0em;
-}
-
-
-/*013*/
-
-body>form>textarea:nth-child(1),
-
-/*013*/
-
-body>form>textarea:nth-child(2) {
+/*001*/
+body > form > input:nth-child(1),
+body > form > input:nth-child(2) {
     text-align: right;
+    resize: none;
+    margin-bottom: 1em;
     background-color: rgb(218, 213, 148);
+    min-height: 5em;
+    max-height: 5em;
+    min-width: 29em;
+    max-width: 29em;
     grid-column-start: 1;
     grid-column-end: 5;
     color: black;
-    resize: none;
 }
 
-
 /*013*/
-
-body>form>button:nth-child(10),
-
-/*013*/
-
-body>form>button:nth-child(11),
-
-/*013*/
-
-body>form>button:nth-child(12),
-
-/*013*/
-
-body>form>button:nth-child(14),
-
-/*013*/
-
-body>form>button:nth-child(15),
-
-/*013*/
-
-body>form>button:nth-child(16),
-
-/*013*/
-
-body>form>button:nth-child(18),
-
-/*013*/
-
-body>form>button:nth-child(19),
-
-/*013*/
-
-body>form>button:nth-child(20),
-
-/*013*/
-
-body>form>button:nth-child(22),
-
-/*013*/
-
-body>form>button:nth-child(23) {
-    background-color: lightblue;
-    color: black;
+body > form > input:nth-child(5),
+body > form > input:nth-child(3),
+body > form > input:nth-child(4),
+body > form > input:nth-child(8),
+body > form > input:nth-child(9),
+body > form > input:nth-child(7){
+    background-color: rgb(224, 75, 75);
 }
 
+/*013*/
+body > form > input:nth-child(6),
+body > form > input:nth-child(10){
+    background-color: gold;
+}
 
 /*013*/
+body > form > input:nth-child(14),
+body > form > input:nth-child(18),
+body > form > input:nth-child(22),
+body > form > input:nth-child(26){
+    background-color: rgb(0, 110, 255);
+}
 
-body>form>button:nth-child(9) {
-    grid-column-start: 3;
+/*013*/
+body > form > input:nth-child(27){
+    grid-column-start: 1;
     grid-column-end: 5;
-    background-color: rgb(109, 218, 255);
-    color: black;
-}
-
-
-/*013*/
-
-body>form>button:nth-child(8),
-
-/*013*/
-
-body>form>button:nth-child(24) {
-    background-color: rgb(255, 207, 94);
-    color: black;
-}
-
-
-/*013*/
-
-body>form>button:nth-child(13),
-
-/*013*/
-
-body>form>button:nth-child(17),
-
-/*013*/
-
-body>form>button:nth-child(21),
-
-/*013*/
-
-body>form>button:nth-child(25) {
-    background-color: rgb(255, 77, 77);
-    color: black;
 }
