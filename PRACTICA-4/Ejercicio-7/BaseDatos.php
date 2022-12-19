@@ -12,23 +12,23 @@ class BaseDatos
         $this->servername = "localhost";
         $this->username = "DBUSER2022";
         $this->password = "DBPSWD2022";
-        $this->database = "muebleria";
+        $this->database = "musica";
     }
 
-    public function buscarDatosTienda()
+    public function buscarDatosManager()
     {
         if (empty($_POST['id']))
             echo "<p>Introduzca id</p>";
         $transacc = new mysqli($this->servername, $this->username, $this->password, $this->database);
-        $consulta = $transacc->prepare("SELECT v.nombre as i, v.direccion as d FROM vendedores v, tiendas t WHERE v.id = t.id AND t.id = ?");
+        $consulta = $transacc->prepare("SELECT v.name as i FROM artist v, manager t WHERE v.artist_id = t.artist_id AND t.manager_id = ?");
         $consulta->bind_param('i', $_POST["id"]);
         $consulta->execute();
         $resultado = $consulta->get_result();
         if ($resultado->num_rows >= 1) {
-            echo "<h2>Vendedores de la tienda ". $_POST['id'].":</h2>";
+            echo "<h2>Artistas del manager ". $_POST['id'].":</h2>";
             echo "<ul>";
             while ($row = $resultado->fetch_assoc()) {
-                echo "<li>Vendedor de nombre " . $row["i"] . " que vive en " . $row["d"]. "</li>";
+                echo "<li>" . $row["i"] ."</li>";
             }
             echo "</ul>";
         }
@@ -36,12 +36,12 @@ class BaseDatos
         $transacc->close();
     }
 
-    public function buscarDatosCliente()
+    public function buscarDatosArtista()
     {
         if (empty($_POST['id']))
             echo "<p>Introduzca id</p>";
         $transacc = new mysqli($this->servername, $this->username, $this->password, $this->database);
-        $consulta = $transacc->prepare("SELECT v.id as j, i.nombre as n FROM ventas v, clientes c, vendedores i WHERE v.clienteId = c.id AND c.id = ?");
+        $consulta = $transacc->prepare("SELECT v.*, i.name as n FROM album v, artist c, label i WHERE v.label_id = i.label_id and v.artist_id = c.artist_id AND c.artist_id = ?");
         try{
             $consulta->bind_param('i', $_POST["id"]);
         }catch (Exception $e) {
@@ -51,10 +51,10 @@ class BaseDatos
         $consulta->execute();
         $resultado = $consulta->get_result();
         if ($resultado->num_rows >= 1) {
-            echo "<h2>Datos del cliente " . $_POST['id']. ":</h2>";
+            echo "<h2>Datos del artista " . $_POST['id']. ":</h2>";
             echo "<ul>";
             while ($row = $resultado->fetch_assoc()) {
-                echo "<li>Venta " .  $row["j"] ." realizada por " . $row["n"] . "</li>";
+                echo "<li>Album " .  $row["name"] ." de la discografica " . $row["n"] . "</li>";
             }
             echo "</ul>";
         }
@@ -62,12 +62,12 @@ class BaseDatos
         $transacc->close();
     }
 
-    public function buscarDatosVendedor()
+    public function buscarDatosAlbum()
     {
         if (empty($_POST['id']))
             echo "<p>Introduzca id</p>";
         $transacc = new mysqli($this->servername, $this->username, $this->password, $this->database);
-        $consulta = $transacc->prepare("SELECT v.id as j, c.nombre as n FROM ventas v, clientes c, vendedores i WHERE v.vendedorId = i.id AND i.id = ?");
+        $consulta = $transacc->prepare("SELECT v.name as j FROM song v, album c WHERE v.album_id = c.album_id AND c.album_id = ?");
         try{
             $consulta->bind_param('i', $_POST["id"]);
         }catch (Exception $e) {
@@ -77,10 +77,10 @@ class BaseDatos
         $consulta->execute();
         $resultado = $consulta->get_result();
         if ($resultado->num_rows >= 1) {
-            echo "<h2>Datos del vendedor " . $_POST['id']. ":</h2>";
+            echo "<h2>Datos del album " . $_POST['id']. ":</h2>";
             echo "<ul>";
             while ($row = $resultado->fetch_assoc()) {
-                echo "<li>Venta " .  $row["j"] ." realizada a " . $row["n"] . "</li>";
+                echo "<li>" .  $row["j"] ."</li>";
             }
             echo "</ul>";
         }

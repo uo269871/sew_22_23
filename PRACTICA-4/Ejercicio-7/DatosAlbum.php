@@ -12,18 +12,18 @@
 </head>
 
 <body>
-	<h1>Gestión Mueblería</h1>
-	<h2>Menú para gestionar la mueblería:</h2>
+	<h1>Gestión Tienda</h1>
+	<h2>Menú para gestionar la tieda:</h2>
 	<nav>
 		<ul>
 			<li><a href="Ejercicio7.html" title="Menú principal">Menú principal</a></li>
-            <li><a href="DatosVendedor.php" title="Mirar ventas de un vendedor">Mirar ventas de un vendedor</a></li>
-			<li><a href="DatosTienda.php" title="Mirar vendedores de una tienda">Mirar vendedores de una tienda</a></li>
+			<li><a href="DatosManager.php" title="Mirar artistas de un manager">Mirar artistas de un manager</a></li>
+			<li><a href="DatosArtista.php" title="Mirar albumes de un artista">Mirar albumes de un artista</a></li>
 		</ul>
 	</nav>
-	<h1>Mirar ventas de un cliente</h1>
+	<h1>Mirar canciones de un album</h1>
 	<form action='#' method='post'>
-		<label for="id">Introduzca el id del cliente a mostrar:</label>
+		<label for="id">Introduzca el id del album a mostrar:</label>
 		<input id="id" type="number" name='id' />
 		<input type='submit' name='buscar' value='Buscar' />
 	</form>
@@ -32,7 +32,7 @@
 	$base = new BaseDatos();
 	if (count($_POST) > 0)
 		if (isset($_POST['buscar']))
-			$base->buscarDatosCliente();
+			$base->buscarDatosAlbum();
 	?>
 </body>
 
